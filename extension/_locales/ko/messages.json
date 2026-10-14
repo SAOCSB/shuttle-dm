@@ -1,0 +1,1172 @@
+{
+  "extName": {
+    "message": "Shuttle DM – 다운로드 매니저"
+  },
+  "extShortName": {
+    "message": "Shuttle DM"
+  },
+  "extDescription": {
+    "message": "다중 연결로 빠르게 받고 이어받기를 지원하는 다운로드 매니저. 웹 동영상(MP4, M3U8) 저장, 오디오·비디오 병합, 웹페이지 저장, 일괄 다운로드."
+  },
+  "localeTag": {
+    "message": "ko"
+  },
+  "brand": {
+    "message": "Shuttle DM"
+  },
+  "cmdOpenManager": {
+    "message": "다운로드 매니저 열기"
+  },
+  "unitB": {
+    "message": "$1 B"
+  },
+  "unitKB": {
+    "message": "$1 KB"
+  },
+  "unitMB": {
+    "message": "$1 MB"
+  },
+  "unitGB": {
+    "message": "$1 GB"
+  },
+  "unitTB": {
+    "message": "$1 TB"
+  },
+  "unitKBps": {
+    "message": "KB/s"
+  },
+  "unitKBshort": {
+    "message": "KB"
+  },
+  "perSecond": {
+    "message": "$1/s"
+  },
+  "etaSeconds": {
+    "message": "$1초"
+  },
+  "etaMinutes": {
+    "message": "$1분 $2초"
+  },
+  "etaHours": {
+    "message": "$1시간 $2분"
+  },
+  "etaDays": {
+    "message": "$1일"
+  },
+  "timeToday": {
+    "message": "오늘 $1"
+  },
+  "timeYesterday": {
+    "message": "어제 $1"
+  },
+  "labelWithDetail": {
+    "message": "$1 ($2)"
+  },
+  "noteSeparator": {
+    "message": "; "
+  },
+  "catVideo": {
+    "message": "동영상"
+  },
+  "catAudio": {
+    "message": "음악"
+  },
+  "catDocument": {
+    "message": "문서"
+  },
+  "catArchive": {
+    "message": "압축 파일"
+  },
+  "catProgram": {
+    "message": "프로그램"
+  },
+  "catImage": {
+    "message": "이미지"
+  },
+  "catPage": {
+    "message": "웹페이지"
+  },
+  "catOther": {
+    "message": "기타"
+  },
+  "stateQueued": {
+    "message": "대기 중"
+  },
+  "stateDownloading": {
+    "message": "다운로드 중"
+  },
+  "statePaused": {
+    "message": "일시 중지됨"
+  },
+  "stateMerging": {
+    "message": "병합 중"
+  },
+  "stateSaving": {
+    "message": "저장 중"
+  },
+  "stateCompleted": {
+    "message": "완료"
+  },
+  "stateError": {
+    "message": "오류"
+  },
+  "stateRecording": {
+    "message": "녹화 중"
+  },
+  "menuDownloadLink": {
+    "message": "Shuttle DM으로 링크 다운로드"
+  },
+  "menuDownloadMedia": {
+    "message": "Shuttle DM으로 이 동영상/오디오 다운로드"
+  },
+  "menuDownloadImage": {
+    "message": "Shuttle DM으로 이미지 다운로드"
+  },
+  "menuGrabSelection": {
+    "message": "선택 영역의 모든 링크 다운로드…"
+  },
+  "menuGrabAll": {
+    "message": "이 페이지의 모든 링크와 리소스 다운로드…"
+  },
+  "menuSaveMhtml": {
+    "message": "페이지를 MHTML로 저장(단일 파일)"
+  },
+  "menuSaveHtml": {
+    "message": "페이지를 HTML로 저장(DOM 스냅샷)"
+  },
+  "notifyActionFailed": {
+    "message": "작업 실패"
+  },
+  "notifyDone": {
+    "message": "다운로드 완료"
+  },
+  "notifyFailed": {
+    "message": "다운로드 실패"
+  },
+  "notifyNoMediaTitle": {
+    "message": "다운로드할 수 있는 미디어가 없습니다"
+  },
+  "notifyNoMediaBody": {
+    "message": "먼저 동영상을 재생한 다음 도구 모음의 Shuttle DM 아이콘을 클릭해 감지된 항목을 확인하세요."
+  },
+  "siteNotSupported": {
+    "message": "지원하지 않는 사이트입니다"
+  },
+  "blockedSiteMessage": {
+    "message": "Shuttle DM은 YouTube 동영상 다운로드를 지원하지 않습니다."
+  },
+  "alreadyInList": {
+    "message": "이미 다운로드 목록에 있습니다"
+  },
+  "errCannotSaveFile": {
+    "message": "파일을 저장할 수 없습니다"
+  },
+  "errNotAllowed": {
+    "message": "허용되지 않는 작업입니다"
+  },
+  "errInvalidUrl": {
+    "message": "잘못된 다운로드 주소입니다"
+  },
+  "errUnknownCommand": {
+    "message": "알 수 없는 명령: $1"
+  },
+  "errEngineNoResponse": {
+    "message": "다운로드 엔진이 응답하지 않습니다"
+  },
+  "errPageNotSavable": {
+    "message": "이 페이지는 저장할 수 없습니다(브라우저 또는 확장 프로그램 페이지)"
+  },
+  "defaultPageName": {
+    "message": "웹페이지"
+  },
+  "errReadPage": {
+    "message": "페이지 내용을 읽을 수 없습니다"
+  },
+  "errSavePageUnable": {
+    "message": "이 페이지를 저장할 수 없습니다"
+  },
+  "errPageEmpty": {
+    "message": "저장된 페이지가 비어 있습니다"
+  },
+  "errSavePageFailed": {
+    "message": "페이지를 저장하지 못했습니다: $1"
+  },
+  "unknownReason": {
+    "message": "알 수 없는 원인"
+  },
+  "savedPageComment": {
+    "message": "Shuttle DM으로 $1에 저장(원본: $2)"
+  },
+  "dashManifest": {
+    "message": "DASH 매니페스트"
+  },
+  "dashNote": {
+    "message": "DASH 매니페스트는 아직 직접 다운로드할 수 없습니다. 재생 중 감지된 오디오·비디오 트랙은 따로 표시됩니다"
+  },
+  "encryptedTrack": {
+    "message": "암호화된 트랙"
+  },
+  "drmMediaNote": {
+    "message": "이 미디어는 DRM으로 보호되어 다운로드할 수 없습니다"
+  },
+  "drmVideoNote": {
+    "message": "이 동영상은 DRM(Widevine, FairPlay 등)으로 보호되어 다운로드할 수 없습니다"
+  },
+  "sizeUnknown": {
+    "message": "크기 알 수 없음"
+  },
+  "live": {
+    "message": "라이브"
+  },
+  "playlistParseFailed": {
+    "message": "재생 목록을 분석하지 못했습니다($1). 다운로드는 시도할 수 있습니다"
+  },
+  "defaultQuality": {
+    "message": "기본 화질"
+  },
+  "audioOnly": {
+    "message": "오디오만: $1"
+  },
+  "segmentCount_one": {
+    "message": "세그먼트 $1개"
+  },
+  "segmentCount_other": {
+    "message": "세그먼트 $1개"
+  },
+  "track": {
+    "message": "트랙"
+  },
+  "trackWithAudio": {
+    "message": "$1 + 오디오"
+  },
+  "trackNoAudio": {
+    "message": "$1, 오디오 없음"
+  },
+  "separateStreams": {
+    "message": "오디오·비디오 분리"
+  },
+  "videoTrack": {
+    "message": "비디오 트랙"
+  },
+  "mergeToMp4": {
+    "message": "MP4로 자동 병합"
+  },
+  "audioTrack": {
+    "message": "오디오 트랙"
+  },
+  "errBlobLostRestart": {
+    "message": "브라우저를 다시 시작해 데이터가 사라졌습니다. 다시 저장해 주세요"
+  },
+  "errHttpOnly": {
+    "message": "http/https 링크만 지원합니다"
+  },
+  "errBlobNoRedownload": {
+    "message": "저장한 웹페이지는 다시 다운로드할 수 없습니다. 원래 페이지에서 다시 저장해 주세요"
+  },
+  "errUnknownAction": {
+    "message": "알 수 없는 작업: $1"
+  },
+  "errDataMissing": {
+    "message": "데이터가 없습니다"
+  },
+  "errDiskFull": {
+    "message": "디스크 공간이 부족합니다. 공간을 확보한 후 ‘재개’를 클릭하세요"
+  },
+  "errTempIo": {
+    "message": "임시 데이터를 읽거나 쓰지 못했습니다($1). ‘재개’를 클릭해 다시 시도하세요"
+  },
+  "errNetwork": {
+    "message": "네트워크 연결에 실패했습니다. 연결을 확인한 후 ‘재개’를 클릭하세요"
+  },
+  "errDataLost": {
+    "message": "데이터가 사라졌습니다. 다시 저장해 주세요"
+  },
+  "takeoverGotHtml": {
+    "message": "서버가 파일 대신 웹페이지를 반환했습니다"
+  },
+  "takeoverSizeMismatch": {
+    "message": "파일 크기가 브라우저 다운로드와 일치하지 않습니다"
+  },
+  "errSaveFailed": {
+    "message": "파일을 저장하지 못했습니다: $1"
+  },
+  "downloadItemLost": {
+    "message": "다운로드 항목이 사라졌습니다"
+  },
+  "http400": {
+    "message": "잘못된 요청(400)"
+  },
+  "http401": {
+    "message": "로그인 또는 인증이 필요합니다(401)"
+  },
+  "http403": {
+    "message": "접근이 거부되었습니다(403): 링크가 만료되었거나 원래 페이지에서 다시 가져와야 합니다"
+  },
+  "http404": {
+    "message": "파일을 찾을 수 없습니다(404)"
+  },
+  "http405": {
+    "message": "서버가 이 요청을 허용하지 않습니다(405)"
+  },
+  "http410": {
+    "message": "더 이상 유효하지 않은 링크입니다(410)"
+  },
+  "http416": {
+    "message": "요청한 범위가 잘못되었습니다(416)"
+  },
+  "http429": {
+    "message": "요청이 너무 많습니다(429)"
+  },
+  "http451": {
+    "message": "법적 사유로 이용할 수 없습니다(451)"
+  },
+  "http500": {
+    "message": "서버 내부 오류(500)"
+  },
+  "http502": {
+    "message": "게이트웨이 오류(502)"
+  },
+  "http503": {
+    "message": "서비스를 일시적으로 사용할 수 없습니다(503)"
+  },
+  "http504": {
+    "message": "게이트웨이 시간 초과(504)"
+  },
+  "httpError": {
+    "message": "HTTP 오류 $1"
+  },
+  "errTimeoutNoData": {
+    "message": "연결 시간 초과: $1초 동안 데이터를 받지 못했습니다"
+  },
+  "errIncompleteAt": {
+    "message": "데이터가 불완전합니다: $1바이트 위치의 데이터가 없습니다"
+  },
+  "errIncompleteSize": {
+    "message": "데이터가 불완전합니다: $1/$2바이트"
+  },
+  "errNoResponse": {
+    "message": "연결 시간 초과: 서버가 오랫동안 응답하지 않습니다"
+  },
+  "errNotFinished": {
+    "message": "다운로드가 완료되지 않았습니다"
+  },
+  "errNoResume": {
+    "message": "이어받기를 지원하지 않습니다"
+  },
+  "errNoMoreRanges": {
+    "message": "서버가 더 이상 이어받기를 지원하지 않습니다"
+  },
+  "errBadRange": {
+    "message": "서버가 잘못된 범위의 데이터를 반환했습니다"
+  },
+  "errRemoteChanged": {
+    "message": "서버의 파일이 변경되었습니다"
+  },
+  "errConnectionDropped": {
+    "message": "연결이 예기치 않게 끊어졌습니다"
+  },
+  "errNoVariants": {
+    "message": "마스터 재생 목록에 사용할 수 있는 화질이 없습니다"
+  },
+  "errVariantParse": {
+    "message": "이 화질의 재생 목록을 분석할 수 없습니다"
+  },
+  "errNoSegments": {
+    "message": "재생 목록에 세그먼트가 없습니다"
+  },
+  "errDrmAudio": {
+    "message": "오디오 트랙이 DRM으로 보호되어 다운로드할 수 없습니다"
+  },
+  "noteSkipped_one": {
+    "message": "다운로드할 수 없는 세그먼트 $1개를 건너뛰었습니다"
+  },
+  "noteSkipped_other": {
+    "message": "다운로드할 수 없는 세그먼트 $1개를 건너뛰었습니다"
+  },
+  "errNoSegmentsDownloaded": {
+    "message": "세그먼트를 하나도 다운로드하지 못했습니다"
+  },
+  "errKeyFormat": {
+    "message": "복호화 키 형식이 예상과 다릅니다($1바이트). 사이트 자체 암호화일 수 있습니다"
+  },
+  "errSegmentIncomplete": {
+    "message": "세그먼트 데이터가 불완전합니다"
+  },
+  "errDecrypt": {
+    "message": "세그먼트를 복호화하지 못했습니다(키 또는 IV 불일치)"
+  },
+  "errTooManySkipped": {
+    "message": "다운로드하지 못한 세그먼트가 너무 많습니다($1)"
+  },
+  "noteLiveEnded": {
+    "message": "라이브 스트림이 끊겨 녹화된 내용을 저장했습니다"
+  },
+  "reasonInitMismatch": {
+    "message": "세그먼트 초기화 정보가 일치하지 않음"
+  },
+  "reasonUnknownFormat": {
+    "message": "알 수 없는 세그먼트 형식"
+  },
+  "reasonNoOutput": {
+    "message": "변환 결과 데이터가 없음"
+  },
+  "reasonNotTs": {
+    "message": "MPEG-TS가 아님"
+  },
+  "reasonNoPmt": {
+    "message": "프로그램 맵 테이블(PMT)을 찾을 수 없음"
+  },
+  "reasonEncodedAs": {
+    "message": "$1 코덱"
+  },
+  "noteKeptOriginal": {
+    "message": "MP4로 무손실 변환할 수 없어($1) 원본 형식으로 저장했습니다(VLC, PotPlayer에서 재생 가능)"
+  },
+  "noteAudioNotMerged": {
+    "message": "별도 오디오 트랙을 병합하지 못했습니다($1)"
+  },
+  "noteMp4Failed": {
+    "message": "MP4 변환에 실패해($1) 원본 형식으로 저장했습니다"
+  },
+  "errNotM3u8": {
+    "message": "올바른 M3U8 재생 목록이 아닙니다"
+  },
+  "errNoMoovInit": {
+    "message": "moov를 찾을 수 없습니다. 올바른 MP4 초기화 세그먼트가 아닙니다"
+  },
+  "errSampleTable": {
+    "message": "MP4 샘플 테이블이 불완전합니다"
+  },
+  "errStz2": {
+    "message": "stz2 샘플 테이블은 아직 지원하지 않습니다"
+  },
+  "errCodecChanged": {
+    "message": "동영상 인코딩 설정이 중간에 바뀌었습니다(광고가 삽입되었을 수 있음)"
+  },
+  "errNoMediaData": {
+    "message": "사용할 수 있는 오디오·비디오 데이터가 없습니다"
+  },
+  "errSourceMissing": {
+    "message": "데이터 소스가 없습니다"
+  },
+  "errMoovSize": {
+    "message": "moov 크기가 일치하지 않습니다"
+  },
+  "errNoMoovFile": {
+    "message": "moov를 찾을 수 없습니다. 올바른 MP4 파일이 아닙니다"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "delete": {
+    "message": "삭제"
+  },
+  "resume": {
+    "message": "재개"
+  },
+  "pause": {
+    "message": "일시 중지"
+  },
+  "startDownload": {
+    "message": "다운로드 시작"
+  },
+  "actionDownload": {
+    "message": "다운로드"
+  },
+  "actionRecord": {
+    "message": "녹화"
+  },
+  "actionCopyLink": {
+    "message": "링크 복사"
+  },
+  "linkCopied": {
+    "message": "링크를 복사했습니다"
+  },
+  "copyFailed": {
+    "message": "복사하지 못했습니다"
+  },
+  "downloadStarted": {
+    "message": "다운로드를 시작했습니다"
+  },
+  "recordStarted": {
+    "message": "녹화를 시작했습니다. 다운로드 매니저에서 중지하고 저장할 수 있습니다"
+  },
+  "downloadLinks": {
+    "message": "다운로드 링크"
+  },
+  "addedTasks_one": {
+    "message": "다운로드 $1개를 추가했습니다"
+  },
+  "addedTasks_other": {
+    "message": "다운로드 $1개를 추가했습니다"
+  },
+  "duplicatesN_one": {
+    "message": "링크 $1개는 이미 목록에 있습니다"
+  },
+  "duplicatesN_other": {
+    "message": "링크 $1개는 이미 목록에 있습니다"
+  },
+  "extensionUpdated": {
+    "message": "확장 프로그램이 업데이트되었습니다. 페이지를 새로 고침하세요"
+  },
+  "overlayDownload": {
+    "message": "이 동영상 다운로드"
+  },
+  "overlayHide": {
+    "message": "숨기기(이 페이지)"
+  },
+  "panelTitle": {
+    "message": "다운로드할 수 있는 동영상"
+  },
+  "panelManager": {
+    "message": "다운로드 매니저"
+  },
+  "detecting": {
+    "message": "감지 중…"
+  },
+  "panelHint": {
+    "message": "원하는 항목이 없나요? 동영상을 잠시 재생한 후 다시 시도하세요"
+  },
+  "currentVideo": {
+    "message": "현재 동영상"
+  },
+  "panelEmpty": {
+    "message": "아직 다운로드할 수 있는 동영상 스트림이 감지되지 않았습니다. 동영상을 재생하고 버퍼링이 시작되면 다시 클릭하세요."
+  },
+  "openManagerTitle": {
+    "message": "다운로드 매니저 열기(Alt+Shift+D)"
+  },
+  "managerShort": {
+    "message": "매니저"
+  },
+  "popupMediaHead": {
+    "message": "이 페이지에서 받기"
+  },
+  "clear": {
+    "message": "지우기"
+  },
+  "clearMediaTitle": {
+    "message": "이 페이지에서 감지된 미디어 목록 지우기"
+  },
+  "pageTools": {
+    "message": "페이지 도구"
+  },
+  "toolSavePage": {
+    "message": "페이지 저장"
+  },
+  "toolSaveHtml": {
+    "message": "HTML로 저장"
+  },
+  "toolGrab": {
+    "message": "일괄 다운로드"
+  },
+  "toolNewTask": {
+    "message": "새 다운로드"
+  },
+  "toolSavePageTitle": {
+    "message": "페이지 전체(이미지, 스타일 포함)를 오프라인에서 열 수 있는 .mhtml 파일 하나로 저장"
+  },
+  "toolSaveHtmlTitle": {
+    "message": "현재 페이지의 HTML 저장(이미지 등은 계속 웹에서 불러옴)"
+  },
+  "toolGrabTitle": {
+    "message": "이 페이지의 모든 링크·이미지·오디오·동영상을 나열하고 선택한 항목을 한꺼번에 다운로드"
+  },
+  "toolNewTaskTitle": {
+    "message": "링크를 붙여 넣어 새 다운로드 만들기"
+  },
+  "pasteLinksPlaceholder": {
+    "message": "다운로드 링크를 한 줄에 하나씩 붙여 넣기"
+  },
+  "popupActiveHead": {
+    "message": "다운로드 중"
+  },
+  "viewAllTasks": {
+    "message": "모든 다운로드"
+  },
+  "takeoverSwitch": {
+    "message": "브라우저 다운로드 가로채기"
+  },
+  "takeoverSwitchTitle": {
+    "message": "켜면 조건에 맞는 브라우저 다운로드를 Shuttle DM이 다중 연결로 받습니다"
+  },
+  "takeoverOn": {
+    "message": "켜짐: 브라우저 다운로드를 Shuttle DM이 처리합니다"
+  },
+  "takeoverOff": {
+    "message": "꺼짐: 브라우저가 직접 다운로드합니다"
+  },
+  "mediaLoading": {
+    "message": "이 페이지의 미디어 분석 중…"
+  },
+  "mediaEmptyTitle": {
+    "message": "아직 감지된 동영상이나 오디오가 없습니다"
+  },
+  "mediaEmptyBody": {
+    "message": "페이지의 동영상을 재생하면 다운로드할 수 있는 항목이 여기에 표시됩니다. 동영상 위에 마우스를 올리고 ‘이 동영상 다운로드’를 클릭해도 됩니다."
+  },
+  "otherFeaturesStillWork": {
+    "message": "웹페이지 저장 등 다른 기능은 계속 사용할 수 있습니다."
+  },
+  "chooseQuality": {
+    "message": "화질 선택"
+  },
+  "pageNotAllowed": {
+    "message": "이 페이지에서는 확장 프로그램을 사용할 수 없습니다"
+  },
+  "pageSavedMhtml": {
+    "message": "페이지를 MHTML로 저장했습니다"
+  },
+  "pageSavedHtml": {
+    "message": "페이지를 HTML로 저장했습니다"
+  },
+  "enterHttpLinks": {
+    "message": "http:// 또는 https://로 시작하는 링크를 입력하세요"
+  },
+  "linksAlreadyListed": {
+    "message": "이 링크는 이미 다운로드 목록에 있습니다"
+  },
+  "speedWithEta": {
+    "message": "$1 · $2 남음"
+  },
+  "managerPageTitle": {
+    "message": "다운로드 매니저 - Shuttle DM"
+  },
+  "taskActions": {
+    "message": "다운로드 작업"
+  },
+  "newTask": {
+    "message": "새 다운로드"
+  },
+  "resumeAll": {
+    "message": "모두 재개"
+  },
+  "pauseAll": {
+    "message": "모두 일시 중지"
+  },
+  "searchTasksPlaceholder": {
+    "message": "파일 이름 또는 URL 검색"
+  },
+  "searchTasks": {
+    "message": "다운로드 검색"
+  },
+  "openDownloadsFolder": {
+    "message": "다운로드 폴더 열기"
+  },
+  "taskCategories": {
+    "message": "다운로드 분류"
+  },
+  "filterAll": {
+    "message": "모든 다운로드"
+  },
+  "filterActive": {
+    "message": "진행 중"
+  },
+  "filterDone": {
+    "message": "완료"
+  },
+  "filterUnfinished": {
+    "message": "미완료"
+  },
+  "clearDoneTitle": {
+    "message": "목록에서만 제거하며 다운로드한 파일은 유지됩니다"
+  },
+  "clearCompletedN_one": {
+    "message": "완료된 다운로드 $1개 지우기"
+  },
+  "clearCompletedN_other": {
+    "message": "완료된 다운로드 $1개 지우기"
+  },
+  "clearedCompleted": {
+    "message": "목록에서 지웠습니다(파일은 컴퓨터에 남아 있습니다)"
+  },
+  "downloadsTable": {
+    "message": "다운로드 목록"
+  },
+  "colName": {
+    "message": "파일 이름"
+  },
+  "colSize": {
+    "message": "크기"
+  },
+  "colProgress": {
+    "message": "진행률"
+  },
+  "colSpeed": {
+    "message": "속도"
+  },
+  "colEta": {
+    "message": "남은 시간"
+  },
+  "colAdded": {
+    "message": "추가 시간"
+  },
+  "emptyListTitle": {
+    "message": "다운로드 목록이 비어 있습니다"
+  },
+  "emptyListBody": {
+    "message": "링크를 마우스 오른쪽 버튼으로 클릭해 ‘Shuttle DM으로 링크 다운로드’를 선택하거나, 동영상을 재생하고 ‘이 동영상 다운로드’를 클릭하세요. 링크를 직접 붙여 넣을 수도 있습니다:"
+  },
+  "noMatchTitle": {
+    "message": "조건에 맞는 다운로드가 없습니다"
+  },
+  "noMatchQuery": {
+    "message": "‘$1’이(가) 포함된 다운로드가 없습니다."
+  },
+  "noMatchCategory": {
+    "message": "이 분류에는 아직 다운로드가 없습니다."
+  },
+  "subRecorded": {
+    "message": "$1 녹화됨"
+  },
+  "subSegments": {
+    "message": "세그먼트 $1/$2"
+  },
+  "subWithHost": {
+    "message": "$1 · $2"
+  },
+  "subMerge": {
+    "message": "오디오·비디오 병합 · $1"
+  },
+  "subSavedPage": {
+    "message": "웹페이지 저장 · $1"
+  },
+  "approxSize": {
+    "message": "약 $1"
+  },
+  "fileRecordMissing": {
+    "message": "이 파일의 저장 기록을 찾을 수 없습니다"
+  },
+  "fileMissing": {
+    "message": "파일이 없습니다. 이동되었거나 삭제되었을 수 있습니다"
+  },
+  "openFile": {
+    "message": "파일 열기"
+  },
+  "showInFolder": {
+    "message": "폴더에서 보기"
+  },
+  "stopRecording": {
+    "message": "녹화 중지 후 저장"
+  },
+  "copyDownloadLink": {
+    "message": "다운로드 링크 복사"
+  },
+  "openSourcePage": {
+    "message": "출처 페이지 열기"
+  },
+  "redownload": {
+    "message": "다시 다운로드"
+  },
+  "deleteN_one": {
+    "message": "다운로드 $1개 삭제"
+  },
+  "deleteN_other": {
+    "message": "다운로드 $1개 삭제"
+  },
+  "taskDetails": {
+    "message": "다운로드 세부 정보"
+  },
+  "kvUrl": {
+    "message": "다운로드 주소"
+  },
+  "kvSourcePage": {
+    "message": "출처 페이지"
+  },
+  "kvSavedTo": {
+    "message": "저장 위치"
+  },
+  "kvResumable": {
+    "message": "이어받기"
+  },
+  "resumableYes": {
+    "message": "지원(일시 중지 후 재개 가능)"
+  },
+  "resumableNo": {
+    "message": "미지원(일시 중지하면 처음부터 다시 다운로드)"
+  },
+  "kvQuality": {
+    "message": "화질"
+  },
+  "kvEncryption": {
+    "message": "암호화"
+  },
+  "aesDecrypted": {
+    "message": "AES-128(자동 복호화됨)"
+  },
+  "kvOutput": {
+    "message": "출력 형식"
+  },
+  "outputMp4": {
+    "message": "MP4(무손실 리먹싱)"
+  },
+  "kvParts": {
+    "message": "구성"
+  },
+  "partAudio": {
+    "message": "오디오 $1"
+  },
+  "partVideo": {
+    "message": "비디오 $1"
+  },
+  "kvNote": {
+    "message": "참고"
+  },
+  "kvError": {
+    "message": "오류"
+  },
+  "kvAdded": {
+    "message": "추가 시간"
+  },
+  "kvCompleted": {
+    "message": "완료 시간"
+  },
+  "statDownloaded": {
+    "message": "다운로드됨"
+  },
+  "statConnections": {
+    "message": "연결"
+  },
+  "statRecorded": {
+    "message": "녹화됨"
+  },
+  "statSegments": {
+    "message": "세그먼트"
+  },
+  "threadsLabel_one": {
+    "message": "연결 $1개로 다운로드 중(각 선은 파일 전체, 주황색은 해당 연결이 완료한 부분)"
+  },
+  "threadsLabel_other": {
+    "message": "연결 $1개로 다운로드 중(각 선은 파일 전체, 주황색은 해당 연결이 완료한 부분)"
+  },
+  "dlgNewTitle": {
+    "message": "새 다운로드"
+  },
+  "newUrlsPlaceholder": {
+    "message": "링크를 한 줄에 하나씩 붙여 넣으세요. 일반 파일과 .m3u8 동영상 스트림을 지원합니다"
+  },
+  "fieldFilenameOptional": {
+    "message": "파일 이름(선택)"
+  },
+  "filenamePlaceholder": {
+    "message": "비워 두면 서버에서 제공하는 이름을 사용합니다"
+  },
+  "fieldConnections": {
+    "message": "연결 수"
+  },
+  "optDefault": {
+    "message": "기본값"
+  },
+  "fieldSubfolderOptional": {
+    "message": "하위 폴더에 저장(선택)"
+  },
+  "subfolderPlaceholder": {
+    "message": "예: 자료/강의(브라우저 다운로드 폴더 안)"
+  },
+  "refererSettings": {
+    "message": "리퍼러 설정"
+  },
+  "refererLabel": {
+    "message": "Referer(링크가 있던 페이지 주소)"
+  },
+  "noHttpLinks": {
+    "message": "http:// 또는 https://로 시작하는 링크가 없습니다"
+  },
+  "deleteFilesToo": {
+    "message": "컴퓨터에 다운로드한 파일도 삭제"
+  },
+  "deleteOneTitle": {
+    "message": "이 다운로드를 삭제할까요?"
+  },
+  "deleteNTitle_one": {
+    "message": "다운로드 $1개를 삭제할까요?"
+  },
+  "deleteNTitle_other": {
+    "message": "다운로드 $1개를 삭제할까요?"
+  },
+  "deleteOneText": {
+    "message": "‘$1’이(가) 목록에서 제거됩니다."
+  },
+  "deleteTempToo": {
+    "message": "다운로드된 임시 데이터도 함께 삭제됩니다."
+  },
+  "deleteManyText": {
+    "message": "이 다운로드들이 목록에서 제거됩니다."
+  },
+  "deleteManyTemp_one": {
+    "message": "미완료 다운로드 $1개의 임시 데이터도 함께 삭제됩니다."
+  },
+  "deleteManyTemp_other": {
+    "message": "미완료 다운로드 $1개의 임시 데이터도 함께 삭제됩니다."
+  },
+  "statusActive_one": {
+    "message": "$1개 다운로드 중 · 총 $2"
+  },
+  "statusActive_other": {
+    "message": "$1개 다운로드 중 · 총 $2"
+  },
+  "statusIdle": {
+    "message": "다운로드 중인 항목이 없습니다"
+  },
+  "statusLimit": {
+    "message": "속도 제한 $1"
+  },
+  "statusTakeoverOn": {
+    "message": "브라우저 다운로드를 가로채는 중"
+  },
+  "statusTakeoverOff": {
+    "message": "브라우저 다운로드를 가로채지 않음"
+  },
+  "tempDataTitle": {
+    "message": "다운로드 중인 임시 데이터로, 완료되면 자동으로 정리됩니다"
+  },
+  "tempData": {
+    "message": "임시 데이터 $1"
+  },
+  "gotIt": {
+    "message": "확인"
+  },
+  "openSettings": {
+    "message": "설정 열기"
+  },
+  "welcomeTitle": {
+    "message": "Shuttle DM을 사용할 준비가 되었습니다"
+  },
+  "welcome1": {
+    "message": "동영상을 재생하면 도구 모음 아이콘에 감지된 개수가 표시됩니다. 동영상 위에 마우스를 올리고 ‘이 동영상 다운로드’를 클릭하세요."
+  },
+  "welcome2": {
+    "message": "링크를 마우스 오른쪽 버튼으로 클릭해 ‘Shuttle DM으로 링크 다운로드’를 선택하거나 여기에 링크를 붙여 넣으면 다중 연결로 다운로드합니다."
+  },
+  "welcome3": {
+    "message": "브라우저 자체 다운로드(압축 파일, 설치 파일, 동영상 등)는 자동으로 Shuttle DM이 넘겨받습니다. 설정에서 끌 수 있습니다."
+  },
+  "engineUnavailable": {
+    "message": "다운로드 엔진에 연결할 수 없습니다: $1"
+  },
+  "optionsPageTitle": {
+    "message": "설정 - Shuttle DM"
+  },
+  "saved": {
+    "message": "저장됨"
+  },
+  "secDownloads": {
+    "message": "다운로드"
+  },
+  "optThreads": {
+    "message": "다운로드당 연결 수"
+  },
+  "optThreadsHelp": {
+    "message": "파일을 여러 부분으로 나눠 동시에 다운로드합니다. 브라우저는 HTTP/1.1 서버 하나에 최대 6개까지 연결하며, HTTP/2 서버에는 이 제한이 없습니다."
+  },
+  "optMaxConcurrent": {
+    "message": "동시 다운로드 수"
+  },
+  "optMaxConcurrentHelp": {
+    "message": "초과한 다운로드는 대기열에서 기다렸다가 앞선 다운로드가 끝나면 자동으로 시작합니다."
+  },
+  "optSpeedLimit": {
+    "message": "전체 속도 제한"
+  },
+  "optSpeedLimitHelp": {
+    "message": "모든 다운로드를 합친 최대 속도입니다. 0은 제한 없음입니다."
+  },
+  "optRetries": {
+    "message": "연결 실패 시 재시도 횟수"
+  },
+  "optRetriesHelp": {
+    "message": "끊긴 연결은 자동으로 다시 연결해 끊긴 위치부터 이어서 받습니다."
+  },
+  "optSubfolder": {
+    "message": "하위 폴더에 저장"
+  },
+  "optSubfolderHelp": {
+    "message": "브라우저 다운로드 폴더 안에 만듭니다. 비워 두면 다운로드 폴더에 바로 저장합니다."
+  },
+  "optSubfolderPlaceholder": {
+    "message": "예: Shuttle DM"
+  },
+  "optCategorize": {
+    "message": "파일 형식별로 폴더 나누기"
+  },
+  "optCategorizeHelp": {
+    "message": "동영상, 음악, 문서, 압축 파일, 프로그램, 이미지, 웹페이지, 기타 파일을 각각 따로 저장합니다."
+  },
+  "optNotify": {
+    "message": "다운로드가 완료되거나 실패하면 알림 받기"
+  },
+  "secVideo": {
+    "message": "동영상 다운로드"
+  },
+  "optOverlay": {
+    "message": "웹 동영상에 ‘이 동영상 다운로드’ 버튼 표시"
+  },
+  "optOverlayHelp": {
+    "message": "동영상 위에 마우스를 올리면 오른쪽 위에 버튼이 나타나며, 클릭해 화질을 골라 다운로드할 수 있습니다."
+  },
+  "optSniffMin": {
+    "message": "이 크기보다 작은 오디오·동영상 무시"
+  },
+  "optSniffMinHelp": {
+    "message": "알림음, 미리보기 영상 같은 작은 파일을 걸러냅니다."
+  },
+  "optHlsFormat": {
+    "message": "M3U8 동영상 스트림 저장 형식"
+  },
+  "optHlsFormatHelp": {
+    "message": "MP4는 세그먼트를 화질 손실 없이 다시 포장한 것으로 휴대폰과 컴퓨터에서 바로 재생됩니다. HEVC처럼 변환할 수 없는 코덱은 자동으로 TS로 저장합니다."
+  },
+  "optHlsConcurrency": {
+    "message": "동시에 다운로드할 세그먼트 수"
+  },
+  "secTakeover": {
+    "message": "브라우저 다운로드 가로채기"
+  },
+  "optTakeover": {
+    "message": "브라우저 다운로드를 Shuttle DM에 맡기기"
+  },
+  "optTakeoverHelp": {
+    "message": "아래 조건에 맞는 다운로드는 Shuttle DM이 다중 연결로 받습니다. Shuttle DM이 링크를 다시 요청할 수 없으면(예: 양식 제출이 필요한 경우) 브라우저가 평소처럼 다운로드를 마칩니다."
+  },
+  "optTakeoverExts": {
+    "message": "가로챌 파일 형식"
+  },
+  "optTakeoverExtsHelp": {
+    "message": "확장자를 공백으로 구분해 입력하세요."
+  },
+  "resetExts": {
+    "message": "기본 목록으로 복원"
+  },
+  "optTakeoverMin": {
+    "message": "이 크기보다 큰 파일만 가로채기"
+  },
+  "optTakeoverMinHelp": {
+    "message": "작은 파일은 브라우저가 직접 받는 편이 더 빠릅니다."
+  },
+  "optTakeoverExclude": {
+    "message": "가로채지 않을 사이트"
+  },
+  "optTakeoverExcludeHelp": {
+    "message": "도메인을 공백이나 줄바꿈으로 구분해 입력하세요(예: files.example.com)."
+  },
+  "optTakeoverExcludePlaceholder": {
+    "message": "비워 두면 모든 사이트에 적용"
+  },
+  "secStorage": {
+    "message": "저장 공간 및 단축키"
+  },
+  "optTempData": {
+    "message": "임시 데이터"
+  },
+  "optTempDataHelp": {
+    "message": "다운로드 중인 데이터는 브라우저가 확장 프로그램에 할당한 공간에 임시로 저장되며, 완료되면 다운로드 폴더로 옮겨지고 자동으로 정리됩니다."
+  },
+  "shortcutIs": {
+    "message": "단축키: $1"
+  },
+  "shortcutNone": {
+    "message": "단축키가 설정되지 않음"
+  },
+  "changeShortcut": {
+    "message": "단축키 변경"
+  },
+  "secAbout": {
+    "message": "정보"
+  },
+  "aboutVersion": {
+    "message": "Shuttle DM $1."
+  },
+  "aboutLocal": {
+    "message": "다운로드와 동영상 병합은 모두 브라우저 안에서 이루어지며, 제3자 서버를 거치지 않습니다."
+  },
+  "aboutOss": {
+    "message": "사용한 오픈소스 구성 요소: mux.js(Apache-2.0, TS 리먹싱), Barlow Semi Condensed 글꼴(SIL OFL 1.1)."
+  },
+  "aboutLegal": {
+    "message": "저장할 권리가 있는 콘텐츠만 다운로드하세요. DRM(Widevine, FairPlay 등)으로 보호된 동영상은 다운로드할 수 없으며 다운로드 대상도 아닙니다."
+  },
+  "aboutSource": {
+    "message": "소스 코드: $1"
+  },
+  "grabPageTitle": {
+    "message": "일괄 다운로드 - Shuttle DM"
+  },
+  "grabPageTitleWith": {
+    "message": "일괄 다운로드: $1 - Shuttle DM"
+  },
+  "toolGrabFull": {
+    "message": "일괄 다운로드"
+  },
+  "filterByType": {
+    "message": "형식별 필터"
+  },
+  "tabAll": {
+    "message": "전체"
+  },
+  "grabSearchPlaceholder": {
+    "message": "URL·텍스트로 필터(* = 와일드카드)"
+  },
+  "grabSearchLabel": {
+    "message": "링크 필터"
+  },
+  "selectAllInList": {
+    "message": "목록 전체 선택"
+  },
+  "colLinkText": {
+    "message": "링크 텍스트"
+  },
+  "colUrl": {
+    "message": "URL"
+  },
+  "saveTo": {
+    "message": "저장 위치"
+  },
+  "grabFolderPlaceholder": {
+    "message": "다운로드 폴더의 하위 폴더(선택)"
+  },
+  "downloadWith": {
+    "message": "다운로드 방식"
+  },
+  "modeEngine": {
+    "message": "Shuttle DM(다중 연결)"
+  },
+  "modeBrowser": {
+    "message": "브라우저로 다운로드"
+  },
+  "selectItem": {
+    "message": "$1 선택"
+  },
+  "grabNoMatch": {
+    "message": "조건에 맞는 링크가 없습니다."
+  },
+  "grabNoLinks": {
+    "message": "이 페이지에서 링크를 찾지 못했습니다."
+  },
+  "selectedCount_one": {
+    "message": "$1개 선택됨"
+  },
+  "selectedCount_other": {
+    "message": "$1개 선택됨"
+  },
+  "downloadSelected": {
+    "message": "선택 항목 다운로드"
+  },
+  "sentToBrowser_one": {
+    "message": "파일 $1개를 브라우저로 보냈습니다"
+  },
+  "sentToBrowser_other": {
+    "message": "파일 $1개를 브라우저로 보냈습니다"
+  },
+  "grabExpired": {
+    "message": "링크 목록이 만료되었습니다. 페이지로 돌아가 ‘일괄 다운로드’를 다시 여세요."
+  },
+  "grabSelection": {
+    "message": "선택 영역"
+  }
+}

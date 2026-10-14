@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="managerPageTitle">Download manager - Shuttle DM</title>
+  <link rel="icon" href="../icons/icon32.png">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="manager.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand" id="brand"><span data-i18n="brand">Shuttle DM</span></div>
+    <div class="toolbar" role="toolbar" data-i18n-aria-label="taskActions">
+      <button class="btn btn-primary" id="btnNew"></button>
+      <span class="sep" aria-hidden="true"></span>
+      <button class="btn btn-quiet" id="btnResume" disabled></button>
+      <button class="btn btn-quiet" id="btnPause" disabled></button>
+      <button class="btn btn-quiet" id="btnDelete" disabled></button>
+      <span class="sep" aria-hidden="true"></span>
+      <button class="btn btn-quiet" id="btnResumeAll"></button>
+      <button class="btn btn-quiet" id="btnPauseAll"></button>
+    </div>
+    <div class="top-right">
+      <label class="search">
+        <span id="searchIcon"></span>
+        <input class="input" id="search" type="search" data-i18n-placeholder="searchTasksPlaceholder" data-i18n-aria-label="searchTasks">
+      </label>
+      <button class="btn btn-quiet btn-icon" id="btnFolder" data-i18n-title="openDownloadsFolder" data-i18n-aria-label="openDownloadsFolder"></button>
+      <button class="btn btn-quiet btn-icon" id="btnSettings" data-i18n-title="settings" data-i18n-aria-label="settings"></button>
+    </div>
+  </header>
+
+  <aside class="rail" data-i18n-aria-label="taskCategories">
+    <nav id="stateNav"></nav>
+    <hr>
+    <nav id="catNav"></nav>
+    <button class="clear-done hidden" id="clearDone" data-i18n-title="clearDoneTitle"></button>
+  </aside>
+
+  <main class="list-area">
+    <div class="welcome hidden" id="welcome"></div>
+    <div class="table-wrap" id="tableWrap">
+      <table class="tasks" id="tasks" data-i18n-aria-label="downloadsTable">
+        <thead>
+          <tr>
+            <th class="c-name" data-sort="name"><span data-i18n="colName">Name</span></th>
+            <th class="c-size" data-sort="size"><span data-i18n="colSize">Size</span></th>
+            <th class="c-prog" data-i18n="colProgress">Progress</th>
+            <th class="c-speed" data-i18n="colSpeed">Speed</th>
+            <th class="c-eta" data-i18n="colEta">Time left</th>
+            <th class="c-time" data-sort="time"><span data-i18n="colAdded">Added</span></th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div class="empty-state hidden" id="empty"></div>
+    </div>
+  </main>
+
+  <section class="detail hidden" id="detail" data-i18n-aria-label="taskDetails"></section>
+
+  <footer class="status" id="status">
+    <span id="stSpeed" class="data"></span>
+    <span id="stRight" class="st-right"></span>
+  </footer>
+
+  <dialog id="dlgNew" class="dlg">
+    <form method="dialog" id="formNew">
+      <h3 data-i18n="dlgNewTitle">New download</h3>
+      <label class="field">
+        <span data-i18n="downloadLinks">Download links</span>
+        <textarea class="input" id="newUrls" rows="4" data-i18n-placeholder="newUrlsPlaceholder" required></textarea>
+      </label>
+      <div class="field-row">
+        <label class="field">
+          <span data-i18n="fieldFilenameOptional">File name (optional)</span>
+          <input class="input" id="newName" data-i18n-placeholder="filenamePlaceholder">
+        </label>
+        <label class="field narrow">
+          <span data-i18n="fieldConnections">Connections</span>
+          <select class="select" id="newThreads">
+            <option value="" data-i18n="optDefault">Default</option>
+            <option>1</option><option>2</option><option>4</option><option>6</option><option>8</option><option>16</option><option>32</option>
+          </select>
+        </label>
+      </div>
+      <label class="field">
+        <span data-i18n="fieldSubfolderOptional">Save to subfolder (optional)</span>
+        <input class="input" id="newDir" data-i18n-placeholder="subfolderPlaceholder">
+      </label>
+      <details class="adv">
+        <summary data-i18n="refererSettings">Referrer settings</summary>
+        <label class="field">
+          <span data-i18n="refererLabel">Referer (address of the source page)</span>
+          <input class="input" id="newReferer" placeholder="https://example.com/page">
+        </label>
+      </details>
+      <div class="dlg-actions">
+        <button class="btn" value="cancel" formnovalidate data-i18n="cancel">Cancel</button>
+        <button class="btn btn-primary" id="newOk" value="ok" data-i18n="startDownload">Start download</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="dlgDelete" class="dlg small">
+    <form method="dialog">
+      <h3 id="delTitle"></h3>
+      <p class="muted" id="delText"></p>
+      <label class="check hidden" id="delFileRow"><input type="checkbox" id="delFile"> <span data-i18n="deleteFilesToo">Also delete the downloaded files from this computer</span></label>
+      <div class="dlg-actions">
+        <button class="btn" value="cancel" data-i18n="cancel">Cancel</button>
+        <button class="btn btn-primary danger" value="ok" id="delOk" data-i18n="delete">Delete</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="ctx hidden" id="ctx" role="menu"></div>
+  <script type="module" src="manager.js"></script>
+</body>
+</html>

@@ -1,0 +1,1172 @@
+{
+  "extName": {
+    "message": "飞梭下载器 · Shuttle DM"
+  },
+  "extShortName": {
+    "message": "飞梭下载器"
+  },
+  "extDescription": {
+    "message": "多线程分段下载、断点续传的下载管理器：检测并下载网页中的视频（MP4、M3U8），自动合并音视频，保存网页，批量下载链接。"
+  },
+  "localeTag": {
+    "message": "zh-CN"
+  },
+  "brand": {
+    "message": "飞梭下载器"
+  },
+  "cmdOpenManager": {
+    "message": "打开下载管理器"
+  },
+  "unitB": {
+    "message": "$1 B"
+  },
+  "unitKB": {
+    "message": "$1 KB"
+  },
+  "unitMB": {
+    "message": "$1 MB"
+  },
+  "unitGB": {
+    "message": "$1 GB"
+  },
+  "unitTB": {
+    "message": "$1 TB"
+  },
+  "unitKBps": {
+    "message": "KB/s"
+  },
+  "unitKBshort": {
+    "message": "KB"
+  },
+  "perSecond": {
+    "message": "$1/s"
+  },
+  "etaSeconds": {
+    "message": "$1 秒"
+  },
+  "etaMinutes": {
+    "message": "$1 分 $2 秒"
+  },
+  "etaHours": {
+    "message": "$1 小时 $2 分"
+  },
+  "etaDays": {
+    "message": "$1 天"
+  },
+  "timeToday": {
+    "message": "今天 $1"
+  },
+  "timeYesterday": {
+    "message": "昨天 $1"
+  },
+  "labelWithDetail": {
+    "message": "$1（$2）"
+  },
+  "noteSeparator": {
+    "message": "；"
+  },
+  "catVideo": {
+    "message": "视频"
+  },
+  "catAudio": {
+    "message": "音乐"
+  },
+  "catDocument": {
+    "message": "文档"
+  },
+  "catArchive": {
+    "message": "压缩包"
+  },
+  "catProgram": {
+    "message": "程序"
+  },
+  "catImage": {
+    "message": "图片"
+  },
+  "catPage": {
+    "message": "网页"
+  },
+  "catOther": {
+    "message": "其他"
+  },
+  "stateQueued": {
+    "message": "排队中"
+  },
+  "stateDownloading": {
+    "message": "下载中"
+  },
+  "statePaused": {
+    "message": "已暂停"
+  },
+  "stateMerging": {
+    "message": "正在合并"
+  },
+  "stateSaving": {
+    "message": "正在保存"
+  },
+  "stateCompleted": {
+    "message": "已完成"
+  },
+  "stateError": {
+    "message": "出错"
+  },
+  "stateRecording": {
+    "message": "录制中"
+  },
+  "menuDownloadLink": {
+    "message": "用飞梭下载此链接"
+  },
+  "menuDownloadMedia": {
+    "message": "用飞梭下载此视频/音频"
+  },
+  "menuDownloadImage": {
+    "message": "用飞梭下载此图片"
+  },
+  "menuGrabSelection": {
+    "message": "下载选中区域内的全部链接…"
+  },
+  "menuGrabAll": {
+    "message": "下载本页全部链接与资源…"
+  },
+  "menuSaveMhtml": {
+    "message": "保存网页为 MHTML（完整单文件）"
+  },
+  "menuSaveHtml": {
+    "message": "保存网页为 HTML（DOM 快照）"
+  },
+  "notifyActionFailed": {
+    "message": "操作失败"
+  },
+  "notifyDone": {
+    "message": "下载完成"
+  },
+  "notifyFailed": {
+    "message": "下载失败"
+  },
+  "notifyNoMediaTitle": {
+    "message": "未找到可下载的媒体"
+  },
+  "notifyNoMediaBody": {
+    "message": "请先播放视频，然后点击工具栏中的飞梭图标查看检测到的视频。"
+  },
+  "siteNotSupported": {
+    "message": "不支持此网站"
+  },
+  "blockedSiteMessage": {
+    "message": "飞梭下载器不支持下载 YouTube 上的视频。"
+  },
+  "alreadyInList": {
+    "message": "该任务已在下载列表中"
+  },
+  "errCannotSaveFile": {
+    "message": "无法保存文件"
+  },
+  "errNotAllowed": {
+    "message": "不允许的操作"
+  },
+  "errInvalidUrl": {
+    "message": "无效的下载地址"
+  },
+  "errUnknownCommand": {
+    "message": "未知命令：$1"
+  },
+  "errEngineNoResponse": {
+    "message": "下载引擎无响应"
+  },
+  "errPageNotSavable": {
+    "message": "该页面不支持保存（浏览器内置页面或扩展页面）"
+  },
+  "defaultPageName": {
+    "message": "网页"
+  },
+  "errReadPage": {
+    "message": "无法读取页面内容"
+  },
+  "errSavePageUnable": {
+    "message": "无法保存此页面"
+  },
+  "errPageEmpty": {
+    "message": "生成的网页内容为空"
+  },
+  "errSavePageFailed": {
+    "message": "保存网页失败：$1"
+  },
+  "unknownReason": {
+    "message": "未知原因"
+  },
+  "savedPageComment": {
+    "message": "由飞梭下载器保存于 $1，来源：$2"
+  },
+  "dashManifest": {
+    "message": "DASH 清单"
+  },
+  "dashNote": {
+    "message": "DASH 清单暂不支持直接下载；播放时检测到的音视频轨道会单独列出"
+  },
+  "encryptedTrack": {
+    "message": "加密轨道"
+  },
+  "drmMediaNote": {
+    "message": "该媒体使用了 DRM 版权保护，无法下载"
+  },
+  "drmVideoNote": {
+    "message": "该视频使用了 DRM 版权保护（Widevine/FairPlay 等），无法下载"
+  },
+  "sizeUnknown": {
+    "message": "大小未知"
+  },
+  "live": {
+    "message": "直播"
+  },
+  "playlistParseFailed": {
+    "message": "播放列表解析失败（$1），仍可尝试下载"
+  },
+  "defaultQuality": {
+    "message": "默认画质"
+  },
+  "audioOnly": {
+    "message": "仅音频：$1"
+  },
+  "segmentCount_one": {
+    "message": "$1 个分片"
+  },
+  "segmentCount_other": {
+    "message": "$1 个分片"
+  },
+  "track": {
+    "message": "轨道"
+  },
+  "trackWithAudio": {
+    "message": "$1 + 音频"
+  },
+  "trackNoAudio": {
+    "message": "$1，无音频"
+  },
+  "separateStreams": {
+    "message": "音视频分离流"
+  },
+  "videoTrack": {
+    "message": "视频轨道"
+  },
+  "mergeToMp4": {
+    "message": "自动合并为 MP4"
+  },
+  "audioTrack": {
+    "message": "音频轨道"
+  },
+  "errBlobLostRestart": {
+    "message": "浏览器重启导致数据丢失，请重新保存"
+  },
+  "errHttpOnly": {
+    "message": "仅支持 http/https 链接"
+  },
+  "errBlobNoRedownload": {
+    "message": "网页保存任务无法重新下载，请回到网页重新保存"
+  },
+  "errUnknownAction": {
+    "message": "未知操作：$1"
+  },
+  "errDataMissing": {
+    "message": "数据不存在"
+  },
+  "errDiskFull": {
+    "message": "磁盘空间不足：请清理磁盘后点击“继续”"
+  },
+  "errTempIo": {
+    "message": "读写临时数据失败（$1），请点击“继续”重试"
+  },
+  "errNetwork": {
+    "message": "网络连接失败，请检查网络后点击“继续”"
+  },
+  "errDataLost": {
+    "message": "数据已丢失，请重新保存"
+  },
+  "takeoverGotHtml": {
+    "message": "服务器返回了网页而不是文件"
+  },
+  "takeoverSizeMismatch": {
+    "message": "文件大小与浏览器下载不一致"
+  },
+  "errSaveFailed": {
+    "message": "保存文件失败：$1"
+  },
+  "downloadItemLost": {
+    "message": "下载项丢失"
+  },
+  "http400": {
+    "message": "请求无效 (400)"
+  },
+  "http401": {
+    "message": "需要登录或授权 (401)"
+  },
+  "http403": {
+    "message": "服务器拒绝访问 (403)：链接可能已过期，或需要在原网页重新获取"
+  },
+  "http404": {
+    "message": "文件不存在 (404)"
+  },
+  "http405": {
+    "message": "服务器不允许此请求 (405)"
+  },
+  "http410": {
+    "message": "链接已失效 (410)"
+  },
+  "http416": {
+    "message": "请求的范围无效 (416)"
+  },
+  "http429": {
+    "message": "请求过于频繁 (429)"
+  },
+  "http451": {
+    "message": "因法律原因不可访问 (451)"
+  },
+  "http500": {
+    "message": "服务器内部错误 (500)"
+  },
+  "http502": {
+    "message": "网关错误 (502)"
+  },
+  "http503": {
+    "message": "服务暂时不可用 (503)"
+  },
+  "http504": {
+    "message": "网关超时 (504)"
+  },
+  "httpError": {
+    "message": "HTTP 错误 $1"
+  },
+  "errTimeoutNoData": {
+    "message": "连接超时：$1 秒没有收到数据"
+  },
+  "errIncompleteAt": {
+    "message": "数据不完整：缺少 $1 处的数据"
+  },
+  "errIncompleteSize": {
+    "message": "数据不完整：$1/$2"
+  },
+  "errNoResponse": {
+    "message": "连接超时：服务器长时间没有响应"
+  },
+  "errNotFinished": {
+    "message": "下载未完成"
+  },
+  "errNoResume": {
+    "message": "不支持续传"
+  },
+  "errNoMoreRanges": {
+    "message": "服务器不再支持分段续传"
+  },
+  "errBadRange": {
+    "message": "服务器返回的数据范围不正确"
+  },
+  "errRemoteChanged": {
+    "message": "远程文件已发生变化"
+  },
+  "errConnectionDropped": {
+    "message": "连接意外中断"
+  },
+  "errNoVariants": {
+    "message": "主播放列表中没有可用的清晰度"
+  },
+  "errVariantParse": {
+    "message": "无法解析清晰度对应的播放列表"
+  },
+  "errNoSegments": {
+    "message": "播放列表中没有分片"
+  },
+  "errDrmAudio": {
+    "message": "音轨使用了 DRM 版权保护，无法下载"
+  },
+  "noteSkipped_one": {
+    "message": "有 $1 个分片无法下载，已跳过"
+  },
+  "noteSkipped_other": {
+    "message": "有 $1 个分片无法下载，已跳过"
+  },
+  "errNoSegmentsDownloaded": {
+    "message": "没有下载到任何分片"
+  },
+  "errKeyFormat": {
+    "message": "解密密钥格式异常（$1 字节），可能是网站自定义加密"
+  },
+  "errSegmentIncomplete": {
+    "message": "分片数据不完整"
+  },
+  "errDecrypt": {
+    "message": "分片解密失败（密钥或 IV 不匹配）"
+  },
+  "errTooManySkipped": {
+    "message": "过多分片无法下载（$1）"
+  },
+  "noteLiveEnded": {
+    "message": "直播流已中断，已保存录制内容"
+  },
+  "reasonInitMismatch": {
+    "message": "分片初始化信息不一致"
+  },
+  "reasonUnknownFormat": {
+    "message": "未知的分片格式"
+  },
+  "reasonNoOutput": {
+    "message": "转换后没有数据"
+  },
+  "reasonNotTs": {
+    "message": "不是 MPEG-TS"
+  },
+  "reasonNoPmt": {
+    "message": "未找到节目映射表 (PMT)"
+  },
+  "reasonEncodedAs": {
+    "message": "编码为 $1"
+  },
+  "noteKeptOriginal": {
+    "message": "无法无损转为 MP4（$1），已保存为原始格式（可用 PotPlayer / VLC 播放）"
+  },
+  "noteAudioNotMerged": {
+    "message": "独立音轨无法合并（$1）"
+  },
+  "noteMp4Failed": {
+    "message": "转换 MP4 失败（$1），已保存为原始格式"
+  },
+  "errNotM3u8": {
+    "message": "不是有效的 M3U8 播放列表"
+  },
+  "errNoMoovInit": {
+    "message": "未找到 moov，不是有效的 MP4 初始化段"
+  },
+  "errSampleTable": {
+    "message": "MP4 样本表不完整"
+  },
+  "errStz2": {
+    "message": "暂不支持 stz2 样本表"
+  },
+  "errCodecChanged": {
+    "message": "视频编码参数在中途发生变化（可能插入了广告片段）"
+  },
+  "errNoMediaData": {
+    "message": "没有可用的音视频数据"
+  },
+  "errSourceMissing": {
+    "message": "数据源缺失"
+  },
+  "errMoovSize": {
+    "message": "moov 尺寸不一致"
+  },
+  "errNoMoovFile": {
+    "message": "没有找到 moov，不是有效的 MP4 文件"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "resume": {
+    "message": "继续"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "startDownload": {
+    "message": "开始下载"
+  },
+  "actionDownload": {
+    "message": "下载"
+  },
+  "actionRecord": {
+    "message": "录制"
+  },
+  "actionCopyLink": {
+    "message": "复制链接"
+  },
+  "linkCopied": {
+    "message": "已复制链接"
+  },
+  "copyFailed": {
+    "message": "复制失败"
+  },
+  "downloadStarted": {
+    "message": "已开始下载"
+  },
+  "recordStarted": {
+    "message": "开始录制，可在下载管理器中停止并保存"
+  },
+  "downloadLinks": {
+    "message": "下载链接"
+  },
+  "addedTasks_one": {
+    "message": "已添加 $1 个下载任务"
+  },
+  "addedTasks_other": {
+    "message": "已添加 $1 个下载任务"
+  },
+  "duplicatesN_one": {
+    "message": "$1 个链接已在列表中"
+  },
+  "duplicatesN_other": {
+    "message": "$1 个链接已在列表中"
+  },
+  "extensionUpdated": {
+    "message": "扩展已更新，请刷新页面"
+  },
+  "overlayDownload": {
+    "message": "下载此视频"
+  },
+  "overlayHide": {
+    "message": "隐藏（本页面）"
+  },
+  "panelTitle": {
+    "message": "可下载的视频"
+  },
+  "panelManager": {
+    "message": "下载管理器"
+  },
+  "detecting": {
+    "message": "正在检测…"
+  },
+  "panelHint": {
+    "message": "没有想要的？先播放一会儿视频再试"
+  },
+  "currentVideo": {
+    "message": "当前视频"
+  },
+  "panelEmpty": {
+    "message": "还没有检测到可下载的视频流。请先播放视频，等它开始缓冲后再点一次。"
+  },
+  "openManagerTitle": {
+    "message": "打开下载管理器（Alt+Shift+D）"
+  },
+  "managerShort": {
+    "message": "管理器"
+  },
+  "popupMediaHead": {
+    "message": "本页可下载"
+  },
+  "clear": {
+    "message": "清空"
+  },
+  "clearMediaTitle": {
+    "message": "清空本页检测到的媒体列表"
+  },
+  "pageTools": {
+    "message": "网页工具"
+  },
+  "toolSavePage": {
+    "message": "保存网页"
+  },
+  "toolSaveHtml": {
+    "message": "存为 HTML"
+  },
+  "toolGrab": {
+    "message": "批量下载"
+  },
+  "toolNewTask": {
+    "message": "新建任务"
+  },
+  "toolSavePageTitle": {
+    "message": "把整个网页（含图片、样式）保存为一个 .mhtml 文件，可离线打开"
+  },
+  "toolSaveHtmlTitle": {
+    "message": "保存当前页面的 HTML（图片等仍从网络加载）"
+  },
+  "toolGrabTitle": {
+    "message": "列出本页所有链接、图片和音视频，勾选后批量下载"
+  },
+  "toolNewTaskTitle": {
+    "message": "粘贴链接新建下载任务"
+  },
+  "pasteLinksPlaceholder": {
+    "message": "粘贴下载链接，每行一个"
+  },
+  "popupActiveHead": {
+    "message": "正在下载"
+  },
+  "viewAllTasks": {
+    "message": "全部任务"
+  },
+  "takeoverSwitch": {
+    "message": "接管浏览器下载"
+  },
+  "takeoverSwitchTitle": {
+    "message": "开启后，符合条件的浏览器下载会自动交给飞梭多线程下载"
+  },
+  "takeoverOn": {
+    "message": "已开启：浏览器下载将由飞梭接管"
+  },
+  "takeoverOff": {
+    "message": "已关闭接管，浏览器将自行下载"
+  },
+  "mediaLoading": {
+    "message": "正在分析本页的媒体…"
+  },
+  "mediaEmptyTitle": {
+    "message": "还没有检测到视频或音频"
+  },
+  "mediaEmptyBody": {
+    "message": "播放页面上的视频后，可下载的内容会出现在这里；也可以把鼠标移到视频上，点击“下载此视频”。"
+  },
+  "otherFeaturesStillWork": {
+    "message": "保存网页等其他功能仍可使用。"
+  },
+  "chooseQuality": {
+    "message": "选择清晰度"
+  },
+  "pageNotAllowed": {
+    "message": "浏览器不允许在此页面上运行扩展功能"
+  },
+  "pageSavedMhtml": {
+    "message": "网页已保存为 MHTML"
+  },
+  "pageSavedHtml": {
+    "message": "网页已保存为 HTML"
+  },
+  "enterHttpLinks": {
+    "message": "请输入以 http:// 或 https:// 开头的链接"
+  },
+  "linksAlreadyListed": {
+    "message": "这些链接已在下载列表中"
+  },
+  "speedWithEta": {
+    "message": "$1，剩余 $2"
+  },
+  "managerPageTitle": {
+    "message": "下载管理器 - 飞梭下载器"
+  },
+  "taskActions": {
+    "message": "任务操作"
+  },
+  "newTask": {
+    "message": "新建任务"
+  },
+  "resumeAll": {
+    "message": "全部开始"
+  },
+  "pauseAll": {
+    "message": "全部暂停"
+  },
+  "searchTasksPlaceholder": {
+    "message": "搜索文件名或网址"
+  },
+  "searchTasks": {
+    "message": "搜索任务"
+  },
+  "openDownloadsFolder": {
+    "message": "打开下载文件夹"
+  },
+  "taskCategories": {
+    "message": "任务分类"
+  },
+  "filterAll": {
+    "message": "全部任务"
+  },
+  "filterActive": {
+    "message": "进行中"
+  },
+  "filterDone": {
+    "message": "已完成"
+  },
+  "filterUnfinished": {
+    "message": "未完成"
+  },
+  "clearDoneTitle": {
+    "message": "只从列表中移除，不会删除已下载的文件"
+  },
+  "clearCompletedN_one": {
+    "message": "清除 $1 个已完成的任务"
+  },
+  "clearCompletedN_other": {
+    "message": "清除 $1 个已完成的任务"
+  },
+  "clearedCompleted": {
+    "message": "已从列表中清除（文件仍保留在电脑上）"
+  },
+  "downloadsTable": {
+    "message": "下载任务"
+  },
+  "colName": {
+    "message": "文件名"
+  },
+  "colSize": {
+    "message": "大小"
+  },
+  "colProgress": {
+    "message": "进度"
+  },
+  "colSpeed": {
+    "message": "速度"
+  },
+  "colEta": {
+    "message": "剩余时间"
+  },
+  "colAdded": {
+    "message": "添加时间"
+  },
+  "emptyListTitle": {
+    "message": "下载列表是空的"
+  },
+  "emptyListBody": {
+    "message": "在网页上右键链接选择“用飞梭下载此链接”，或者播放视频后点击视频上的“下载此视频”。也可以直接粘贴链接："
+  },
+  "noMatchTitle": {
+    "message": "没有符合条件的任务"
+  },
+  "noMatchQuery": {
+    "message": "没有找到包含“$1”的任务。"
+  },
+  "noMatchCategory": {
+    "message": "这个分类下暂时没有任务。"
+  },
+  "subRecorded": {
+    "message": "已录制 $1"
+  },
+  "subSegments": {
+    "message": "分片 $1/$2"
+  },
+  "subWithHost": {
+    "message": "$1，$2"
+  },
+  "subMerge": {
+    "message": "音视频合并，$1"
+  },
+  "subSavedPage": {
+    "message": "网页保存，$1"
+  },
+  "approxSize": {
+    "message": "约 $1"
+  },
+  "fileRecordMissing": {
+    "message": "找不到这个文件的保存记录"
+  },
+  "fileMissing": {
+    "message": "文件不存在，可能已被移动或删除"
+  },
+  "openFile": {
+    "message": "打开文件"
+  },
+  "showInFolder": {
+    "message": "在文件夹中显示"
+  },
+  "stopRecording": {
+    "message": "停止录制并保存"
+  },
+  "copyDownloadLink": {
+    "message": "复制下载链接"
+  },
+  "openSourcePage": {
+    "message": "打开来源网页"
+  },
+  "redownload": {
+    "message": "重新下载"
+  },
+  "deleteN_one": {
+    "message": "删除 $1 个任务"
+  },
+  "deleteN_other": {
+    "message": "删除 $1 个任务"
+  },
+  "taskDetails": {
+    "message": "任务详情"
+  },
+  "kvUrl": {
+    "message": "下载地址"
+  },
+  "kvSourcePage": {
+    "message": "来源网页"
+  },
+  "kvSavedTo": {
+    "message": "保存位置"
+  },
+  "kvResumable": {
+    "message": "断点续传"
+  },
+  "resumableYes": {
+    "message": "支持（可暂停后继续）"
+  },
+  "resumableNo": {
+    "message": "不支持（暂停后需要重新下载）"
+  },
+  "kvQuality": {
+    "message": "清晰度"
+  },
+  "kvEncryption": {
+    "message": "加密"
+  },
+  "aesDecrypted": {
+    "message": "AES-128（已自动解密）"
+  },
+  "kvOutput": {
+    "message": "输出格式"
+  },
+  "outputMp4": {
+    "message": "MP4（无损转封装）"
+  },
+  "kvParts": {
+    "message": "组成"
+  },
+  "partAudio": {
+    "message": "音频 $1"
+  },
+  "partVideo": {
+    "message": "视频 $1"
+  },
+  "kvNote": {
+    "message": "备注"
+  },
+  "kvError": {
+    "message": "错误"
+  },
+  "kvAdded": {
+    "message": "添加时间"
+  },
+  "kvCompleted": {
+    "message": "完成时间"
+  },
+  "statDownloaded": {
+    "message": "已下载"
+  },
+  "statConnections": {
+    "message": "连接"
+  },
+  "statRecorded": {
+    "message": "已录制"
+  },
+  "statSegments": {
+    "message": "分片"
+  },
+  "threadsLabel_one": {
+    "message": "$1 个连接正在下载（每条线代表整个文件，橙色为该连接已完成的部分）"
+  },
+  "threadsLabel_other": {
+    "message": "$1 个连接正在下载（每条线代表整个文件，橙色为该连接已完成的部分）"
+  },
+  "dlgNewTitle": {
+    "message": "新建下载任务"
+  },
+  "newUrlsPlaceholder": {
+    "message": "粘贴链接，每行一个；支持普通文件和 .m3u8 视频流"
+  },
+  "fieldFilenameOptional": {
+    "message": "文件名（可选）"
+  },
+  "filenamePlaceholder": {
+    "message": "留空则使用服务器提供的名称"
+  },
+  "fieldConnections": {
+    "message": "连接数"
+  },
+  "optDefault": {
+    "message": "默认"
+  },
+  "fieldSubfolderOptional": {
+    "message": "保存到子文件夹（可选）"
+  },
+  "subfolderPlaceholder": {
+    "message": "例如：资料/课程，位于浏览器下载目录下"
+  },
+  "refererSettings": {
+    "message": "防盗链设置"
+  },
+  "refererLabel": {
+    "message": "Referer（来源页面地址）"
+  },
+  "noHttpLinks": {
+    "message": "没有找到以 http:// 或 https:// 开头的链接"
+  },
+  "deleteFilesToo": {
+    "message": "同时删除已下载到电脑上的文件"
+  },
+  "deleteOneTitle": {
+    "message": "删除这个任务？"
+  },
+  "deleteNTitle_one": {
+    "message": "删除 $1 个任务？"
+  },
+  "deleteNTitle_other": {
+    "message": "删除 $1 个任务？"
+  },
+  "deleteOneText": {
+    "message": "“$1”将从列表中移除。"
+  },
+  "deleteTempToo": {
+    "message": "已下载的临时数据也会一起清除。"
+  },
+  "deleteManyText": {
+    "message": "这些任务将从列表中移除。"
+  },
+  "deleteManyTemp_one": {
+    "message": "其中 $1 个未完成任务的临时数据也会一起清除。"
+  },
+  "deleteManyTemp_other": {
+    "message": "其中 $1 个未完成任务的临时数据也会一起清除。"
+  },
+  "statusActive_one": {
+    "message": "$1 个任务下载中，总速度 $2"
+  },
+  "statusActive_other": {
+    "message": "$1 个任务下载中，总速度 $2"
+  },
+  "statusIdle": {
+    "message": "没有正在下载的任务"
+  },
+  "statusLimit": {
+    "message": "限速 $1"
+  },
+  "statusTakeoverOn": {
+    "message": "已接管浏览器下载"
+  },
+  "statusTakeoverOff": {
+    "message": "未接管浏览器下载"
+  },
+  "tempDataTitle": {
+    "message": "下载过程中的临时数据，任务完成后会自动清理"
+  },
+  "tempData": {
+    "message": "临时数据 $1"
+  },
+  "gotIt": {
+    "message": "知道了"
+  },
+  "openSettings": {
+    "message": "打开设置"
+  },
+  "welcomeTitle": {
+    "message": "飞梭下载器已就绪"
+  },
+  "welcome1": {
+    "message": "播放网页视频后，工具栏图标会显示检测到的数量；鼠标移到视频上可以直接点“下载此视频”。"
+  },
+  "welcome2": {
+    "message": "右键任意链接选择“用飞梭下载此链接”，或者在这里粘贴链接，即可多线程下载。"
+  },
+  "welcome3": {
+    "message": "浏览器自己的下载（压缩包、安装包、视频等）会自动交给飞梭加速，可在设置中关闭。"
+  },
+  "engineUnavailable": {
+    "message": "无法连接下载引擎：$1"
+  },
+  "optionsPageTitle": {
+    "message": "设置 - 飞梭下载器"
+  },
+  "saved": {
+    "message": "已保存"
+  },
+  "secDownloads": {
+    "message": "下载"
+  },
+  "optThreads": {
+    "message": "每个任务的连接数"
+  },
+  "optThreadsHelp": {
+    "message": "文件会被分成多段同时下载。浏览器对同一个 HTTP/1.1 服务器最多建立 6 个连接，HTTP/2 服务器不受此限制。"
+  },
+  "optMaxConcurrent": {
+    "message": "同时下载的任务数"
+  },
+  "optMaxConcurrentHelp": {
+    "message": "超出的任务会排队，前面的任务完成后自动开始。"
+  },
+  "optSpeedLimit": {
+    "message": "全局限速"
+  },
+  "optSpeedLimitHelp": {
+    "message": "所有任务合计的最大速度，0 表示不限速。"
+  },
+  "optRetries": {
+    "message": "连接失败时的重试次数"
+  },
+  "optRetriesHelp": {
+    "message": "每个连接中断后会自动重连，并从断开的位置继续。"
+  },
+  "optSubfolder": {
+    "message": "保存到子文件夹"
+  },
+  "optSubfolderHelp": {
+    "message": "位于浏览器下载目录之下，留空则直接保存在下载目录。"
+  },
+  "optSubfolderPlaceholder": {
+    "message": "例如：飞梭下载"
+  },
+  "optCategorize": {
+    "message": "按文件类型分到不同文件夹"
+  },
+  "optCategorizeHelp": {
+    "message": "视频、音乐、文档、压缩包、程序、图片、网页和其他文件分别存放。"
+  },
+  "optNotify": {
+    "message": "下载完成或失败时发送通知"
+  },
+  "secVideo": {
+    "message": "视频下载"
+  },
+  "optOverlay": {
+    "message": "在网页视频上显示“下载此视频”按钮"
+  },
+  "optOverlayHelp": {
+    "message": "鼠标移到视频上时，右上角出现按钮，点击即可选择清晰度下载。"
+  },
+  "optSniffMin": {
+    "message": "忽略小于此大小的音视频"
+  },
+  "optSniffMinHelp": {
+    "message": "过滤网页上的提示音、预览动图等小文件。"
+  },
+  "optHlsFormat": {
+    "message": "M3U8 视频流的保存格式"
+  },
+  "optHlsFormatHelp": {
+    "message": "MP4 由分片无损重新封装而成，可以直接在手机和电脑上播放；HEVC 等无法转换的编码会自动保存为 TS。"
+  },
+  "optHlsConcurrency": {
+    "message": "同时下载的分片数"
+  },
+  "secTakeover": {
+    "message": "接管浏览器下载"
+  },
+  "optTakeover": {
+    "message": "把浏览器的下载交给飞梭"
+  },
+  "optTakeoverHelp": {
+    "message": "符合下面条件的下载会由飞梭多线程下载。如果飞梭无法重新请求该链接（例如需要提交表单），浏览器会照常完成下载。"
+  },
+  "optTakeoverExts": {
+    "message": "接管这些类型的文件"
+  },
+  "optTakeoverExtsHelp": {
+    "message": "扩展名，用空格分隔。"
+  },
+  "resetExts": {
+    "message": "恢复默认列表"
+  },
+  "optTakeoverMin": {
+    "message": "只接管大于此大小的文件"
+  },
+  "optTakeoverMinHelp": {
+    "message": "小文件直接由浏览器下载更快。"
+  },
+  "optTakeoverExclude": {
+    "message": "不接管这些网站"
+  },
+  "optTakeoverExcludeHelp": {
+    "message": "域名，用空格或换行分隔，例如 pan.example.com。"
+  },
+  "optTakeoverExcludePlaceholder": {
+    "message": "不填则对所有网站生效"
+  },
+  "secStorage": {
+    "message": "存储与快捷键"
+  },
+  "optTempData": {
+    "message": "临时数据"
+  },
+  "optTempDataHelp": {
+    "message": "下载中的数据先保存在浏览器为扩展分配的存储空间里，完成后转存到下载目录并自动清理。"
+  },
+  "shortcutIs": {
+    "message": "快捷键 $1"
+  },
+  "shortcutNone": {
+    "message": "尚未设置快捷键"
+  },
+  "changeShortcut": {
+    "message": "修改快捷键"
+  },
+  "secAbout": {
+    "message": "关于"
+  },
+  "aboutVersion": {
+    "message": "飞梭下载器 $1。"
+  },
+  "aboutLocal": {
+    "message": "下载引擎、视频合并全部在本机浏览器内完成，不经过任何第三方服务器。"
+  },
+  "aboutOss": {
+    "message": "使用的开源组件：mux.js（Apache-2.0，TS 转封装）、Barlow Semi Condensed 字体（SIL OFL 1.1）。"
+  },
+  "aboutLegal": {
+    "message": "请只下载你有权保存的内容。使用 DRM 版权保护（如 Widevine、FairPlay）的视频无法也不会被下载。"
+  },
+  "aboutSource": {
+    "message": "源代码：$1"
+  },
+  "grabPageTitle": {
+    "message": "批量下载 - 飞梭下载器"
+  },
+  "grabPageTitleWith": {
+    "message": "批量下载：$1 - 飞梭下载器"
+  },
+  "toolGrabFull": {
+    "message": "批量下载"
+  },
+  "filterByType": {
+    "message": "按类型筛选"
+  },
+  "tabAll": {
+    "message": "全部"
+  },
+  "grabSearchPlaceholder": {
+    "message": "按网址或文字筛选，支持 * 通配符"
+  },
+  "grabSearchLabel": {
+    "message": "筛选链接"
+  },
+  "selectAllInList": {
+    "message": "全选当前列表"
+  },
+  "colLinkText": {
+    "message": "链接文字"
+  },
+  "colUrl": {
+    "message": "网址"
+  },
+  "saveTo": {
+    "message": "保存到"
+  },
+  "grabFolderPlaceholder": {
+    "message": "下载目录下的子文件夹（可选）"
+  },
+  "downloadWith": {
+    "message": "下载方式"
+  },
+  "modeEngine": {
+    "message": "飞梭多线程下载"
+  },
+  "modeBrowser": {
+    "message": "交给浏览器下载"
+  },
+  "selectItem": {
+    "message": "选择 $1"
+  },
+  "grabNoMatch": {
+    "message": "没有符合条件的链接。"
+  },
+  "grabNoLinks": {
+    "message": "这个页面上没有找到链接。"
+  },
+  "selectedCount_one": {
+    "message": "已选择 $1 个"
+  },
+  "selectedCount_other": {
+    "message": "已选择 $1 个"
+  },
+  "downloadSelected": {
+    "message": "下载所选"
+  },
+  "sentToBrowser_one": {
+    "message": "已交给浏览器下载 $1 个文件"
+  },
+  "sentToBrowser_other": {
+    "message": "已交给浏览器下载 $1 个文件"
+  },
+  "grabExpired": {
+    "message": "链接列表已过期，请回到网页重新打开“批量下载”。"
+  },
+  "grabSelection": {
+    "message": "选中区域"
+  }
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="grabPageTitle">Batch download - Shuttle DM</title>
+  <link rel="icon" href="../icons/icon32.png">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="grab.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand" id="brand"><span data-i18n="toolGrabFull">Batch download</span></div>
+    <div class="source ellipsis" id="source"></div>
+  </header>
+
+  <div class="filters">
+    <div class="tabs" id="tabs" role="tablist" data-i18n-aria-label="filterByType"></div>
+    <label class="search">
+      <span id="searchIcon"></span>
+      <input class="input" id="search" type="search" data-i18n-placeholder="grabSearchPlaceholder" data-i18n-aria-label="grabSearchLabel">
+    </label>
+  </div>
+
+  <main class="table-wrap">
+    <table class="links">
+      <thead>
+        <tr>
+          <th class="c-check"><input type="checkbox" id="checkAll" data-i18n-aria-label="selectAllInList"></th>
+          <th class="c-name" data-i18n="colName">Name</th>
+          <th class="c-text" data-i18n="colLinkText">Link text</th>
+          <th class="c-url" data-i18n="colUrl">URL</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty hidden" id="empty"></div>
+  </main>
+
+  <footer class="bar">
+    <span class="count" id="count"></span>
+    <label class="field">
+      <span data-i18n="saveTo">Save to</span>
+      <input class="input" id="folder" data-i18n-placeholder="grabFolderPlaceholder">
+    </label>
+    <label class="field">
+      <span data-i18n="downloadWith">Download with</span>
+      <select class="select" id="mode">
+        <option value="engine" data-i18n="modeEngine">Shuttle (multiple connections)</option>
+        <option value="browser" data-i18n="modeBrowser">The browser’s downloader</option>
+      </select>
+    </label>
+    <button class="btn btn-primary" id="go" disabled></button>
+  </footer>
+  <script type="module" src="grab.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+tests/assets/
+tests/.work/
+tests/.server.*
+.DS_Store
+Thumbs.db

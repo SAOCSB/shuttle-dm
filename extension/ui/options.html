@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="optionsPageTitle">Settings - Shuttle DM</title>
+  <link rel="icon" href="../icons/icon32.png">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <header class="top">
+    <div class="inner">
+      <div class="brand" id="brand"><span data-i18n="brand">Shuttle DM</span></div>
+      <span class="saved" id="saved" aria-live="polite"></span>
+    </div>
+  </header>
+  <main class="inner">
+    <h1 data-i18n="settings">Settings</h1>
+
+    <section>
+      <h2 data-i18n="secDownloads">Downloads</h2>
+      <div class="row">
+        <div class="lbl"><label for="threads" data-i18n="optThreads">Connections per download</label>
+          <p data-i18n="optThreadsHelp"></p></div>
+        <div class="ctl"><input class="input num" type="number" id="threads" min="1" max="32" step="1"></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="maxConcurrent" data-i18n="optMaxConcurrent">Simultaneous downloads</label>
+          <p data-i18n="optMaxConcurrentHelp"></p></div>
+        <div class="ctl"><input class="input num" type="number" id="maxConcurrent" min="1" max="10" step="1"></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="speedLimitKB" data-i18n="optSpeedLimit">Speed limit</label>
+          <p data-i18n="optSpeedLimitHelp"></p></div>
+        <div class="ctl"><input class="input num" type="number" id="speedLimitKB" min="0" step="256"><span class="unit" data-i18n="unitKBps">KB/s</span></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="retries" data-i18n="optRetries">Retries when a connection fails</label>
+          <p data-i18n="optRetriesHelp"></p></div>
+        <div class="ctl"><input class="input num" type="number" id="retries" min="0" max="50" step="1"></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="subfolder" data-i18n="optSubfolder">Save to subfolder</label>
+          <p data-i18n="optSubfolderHelp"></p></div>
+        <div class="ctl"><input class="input wide" id="subfolder" data-i18n-placeholder="optSubfolderPlaceholder"></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="categorize" data-i18n="optCategorize">Sort into folders by file type</label>
+          <p data-i18n="optCategorizeHelp"></p></div>
+        <div class="ctl"><label class="switch"><input type="checkbox" id="categorize"><span class="track"></span></label></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="notify" data-i18n="optNotify">Notify me when a download finishes or fails</label></div>
+        <div class="ctl"><label class="switch"><input type="checkbox" id="notify"><span class="track"></span></label></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="secVideo">Video downloads</h2>
+      <div class="row">
+        <div class="lbl"><label for="showOverlay" data-i18n="optOverlay">Show a “Download video” button on web videos</label>
+          <p data-i18n="optOverlayHelp"></p></div>
+        <div class="ctl"><label class="switch"><input type="checkbox" id="showOverlay"><span class="track"></span></label></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="sniffMinKB" data-i18n="optSniffMin">Ignore audio and video smaller than</label>
+          <p data-i18n="optSniffMinHelp"></p></div>
+        <div class="ctl"><input class="input num" type="number" id="sniffMinKB" min="0" step="50"><span class="unit" data-i18n="unitKBshort">KB</span></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><span id="hlsLabel" data-i18n="optHlsFormat">Save M3U8 streams as</span>
+          <p data-i18n="optHlsFormatHelp"></p></div>
+        <div class="ctl seg" role="radiogroup" aria-labelledby="hlsLabel">
+          <label><input type="radio" name="hlsFormat" value="mp4"><span>MP4</span></label>
+          <label><input type="radio" name="hlsFormat" value="ts"><span>TS</span></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="hlsConcurrency" data-i18n="optHlsConcurrency">Segments downloaded at once</label></div>
+        <div class="ctl"><input class="input num" type="number" id="hlsConcurrency" min="1" max="16" step="1"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="secTakeover">Browser download takeover</h2>
+      <div class="row">
+        <div class="lbl"><label for="takeover" data-i18n="optTakeover">Hand browser downloads to Shuttle</label>
+          <p data-i18n="optTakeoverHelp"></p></div>
+        <div class="ctl"><label class="switch"><input type="checkbox" id="takeover"><span class="track"></span></label></div>
+      </div>
+      <div class="row stack">
+        <div class="lbl"><label for="takeoverExts" data-i18n="optTakeoverExts">File types to take over</label>
+          <p data-i18n="optTakeoverExtsHelp"></p></div>
+        <div class="ctl"><textarea class="input" id="takeoverExts" rows="4"></textarea>
+          <button class="btn btn-quiet small" id="resetExts" type="button" data-i18n="resetExts">Restore defaults</button></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><label for="takeoverMinKB" data-i18n="optTakeoverMin">Only take over files larger than</label>
+          <p data-i18n="optTakeoverMinHelp"></p></div>
+        <div class="ctl"><input class="input num" type="number" id="takeoverMinKB" min="0" step="256"><span class="unit" data-i18n="unitKBshort">KB</span></div>
+      </div>
+      <div class="row stack">
+        <div class="lbl"><label for="takeoverExclude" data-i18n="optTakeoverExclude">Never take over on these sites</label>
+          <p data-i18n="optTakeoverExcludeHelp"></p></div>
+        <div class="ctl"><textarea class="input" id="takeoverExclude" rows="3" data-i18n-placeholder="optTakeoverExcludePlaceholder"></textarea></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="secStorage">Storage and shortcut</h2>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optTempData">Temporary data</span>
+          <p data-i18n="optTempDataHelp"></p></div>
+        <div class="ctl"><span class="data big" id="usage">—</span></div>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="cmdOpenManager">Open download manager</span>
+          <p id="shortcutText"></p></div>
+        <div class="ctl"><button class="btn" id="shortcuts" type="button" data-i18n="changeShortcut">Change shortcut</button></div>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2 data-i18n="secAbout">About</h2>
+      <p><strong id="version"></strong> <span data-i18n="aboutLocal"></span></p>
+      <p class="muted" data-i18n="aboutOss"></p>
+      <p class="muted"><span data-i18n="aboutLegal"></span> <span data-i18n="blockedSiteMessage"></span></p>
+      <p class="muted"><a id="homepage" target="_blank" rel="noreferrer"></a></p>
+    </section>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

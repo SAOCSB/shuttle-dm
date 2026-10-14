@@ -1,0 +1,1172 @@
+{
+  "extName": {
+    "message": "Shuttle DM – Download Manager"
+  },
+  "extShortName": {
+    "message": "Shuttle DM"
+  },
+  "extDescription": {
+    "message": "Multi-connection download manager with resume. Save web videos (MP4, M3U8), merge audio and video, save pages, batch download."
+  },
+  "localeTag": {
+    "message": "en"
+  },
+  "brand": {
+    "message": "Shuttle DM"
+  },
+  "cmdOpenManager": {
+    "message": "Open download manager"
+  },
+  "unitB": {
+    "message": "$1 B"
+  },
+  "unitKB": {
+    "message": "$1 KB"
+  },
+  "unitMB": {
+    "message": "$1 MB"
+  },
+  "unitGB": {
+    "message": "$1 GB"
+  },
+  "unitTB": {
+    "message": "$1 TB"
+  },
+  "unitKBps": {
+    "message": "KB/s"
+  },
+  "unitKBshort": {
+    "message": "KB"
+  },
+  "perSecond": {
+    "message": "$1/s"
+  },
+  "etaSeconds": {
+    "message": "$1 s"
+  },
+  "etaMinutes": {
+    "message": "$1 min $2 s"
+  },
+  "etaHours": {
+    "message": "$1 h $2 min"
+  },
+  "etaDays": {
+    "message": "$1 d"
+  },
+  "timeToday": {
+    "message": "Today $1"
+  },
+  "timeYesterday": {
+    "message": "Yesterday $1"
+  },
+  "labelWithDetail": {
+    "message": "$1 ($2)"
+  },
+  "noteSeparator": {
+    "message": "; "
+  },
+  "catVideo": {
+    "message": "Videos"
+  },
+  "catAudio": {
+    "message": "Music"
+  },
+  "catDocument": {
+    "message": "Documents"
+  },
+  "catArchive": {
+    "message": "Archives"
+  },
+  "catProgram": {
+    "message": "Programs"
+  },
+  "catImage": {
+    "message": "Images"
+  },
+  "catPage": {
+    "message": "Web pages"
+  },
+  "catOther": {
+    "message": "Other"
+  },
+  "stateQueued": {
+    "message": "Queued"
+  },
+  "stateDownloading": {
+    "message": "Downloading"
+  },
+  "statePaused": {
+    "message": "Paused"
+  },
+  "stateMerging": {
+    "message": "Merging"
+  },
+  "stateSaving": {
+    "message": "Saving"
+  },
+  "stateCompleted": {
+    "message": "Completed"
+  },
+  "stateError": {
+    "message": "Error"
+  },
+  "stateRecording": {
+    "message": "Recording"
+  },
+  "menuDownloadLink": {
+    "message": "Download link with Shuttle DM"
+  },
+  "menuDownloadMedia": {
+    "message": "Download this video or audio with Shuttle DM"
+  },
+  "menuDownloadImage": {
+    "message": "Download image with Shuttle DM"
+  },
+  "menuGrabSelection": {
+    "message": "Download all links in the selection…"
+  },
+  "menuGrabAll": {
+    "message": "Download all links and resources on this page…"
+  },
+  "menuSaveMhtml": {
+    "message": "Save page as MHTML (single file)"
+  },
+  "menuSaveHtml": {
+    "message": "Save page as HTML (DOM snapshot)"
+  },
+  "notifyActionFailed": {
+    "message": "Action failed"
+  },
+  "notifyDone": {
+    "message": "Download complete"
+  },
+  "notifyFailed": {
+    "message": "Download failed"
+  },
+  "notifyNoMediaTitle": {
+    "message": "No downloadable media found"
+  },
+  "notifyNoMediaBody": {
+    "message": "Play the video first, then click the Shuttle DM icon in the toolbar to see what was detected."
+  },
+  "siteNotSupported": {
+    "message": "This site isn’t supported"
+  },
+  "blockedSiteMessage": {
+    "message": "Shuttle DM doesn’t download videos from YouTube."
+  },
+  "alreadyInList": {
+    "message": "Already in the download list"
+  },
+  "errCannotSaveFile": {
+    "message": "Couldn’t save the file"
+  },
+  "errNotAllowed": {
+    "message": "This action isn’t allowed"
+  },
+  "errInvalidUrl": {
+    "message": "Invalid download address"
+  },
+  "errUnknownCommand": {
+    "message": "Unknown command: $1"
+  },
+  "errEngineNoResponse": {
+    "message": "The download engine didn’t respond"
+  },
+  "errPageNotSavable": {
+    "message": "This page can’t be saved (browser or extension page)"
+  },
+  "defaultPageName": {
+    "message": "webpage"
+  },
+  "errReadPage": {
+    "message": "Couldn’t read the page content"
+  },
+  "errSavePageUnable": {
+    "message": "Couldn’t save this page"
+  },
+  "errPageEmpty": {
+    "message": "The saved page is empty"
+  },
+  "errSavePageFailed": {
+    "message": "Couldn’t save the page: $1"
+  },
+  "unknownReason": {
+    "message": "unknown reason"
+  },
+  "savedPageComment": {
+    "message": "Saved by Shuttle DM on $1 from $2"
+  },
+  "dashManifest": {
+    "message": "DASH manifest"
+  },
+  "dashNote": {
+    "message": "DASH manifests can’t be downloaded directly yet. Audio and video tracks detected during playback are listed separately."
+  },
+  "encryptedTrack": {
+    "message": "Encrypted track"
+  },
+  "drmMediaNote": {
+    "message": "This media is protected by DRM and can’t be downloaded"
+  },
+  "drmVideoNote": {
+    "message": "This video is protected by DRM (Widevine, FairPlay, etc.) and can’t be downloaded"
+  },
+  "sizeUnknown": {
+    "message": "Size unknown"
+  },
+  "live": {
+    "message": "Live"
+  },
+  "playlistParseFailed": {
+    "message": "Couldn’t read the playlist ($1). You can still try to download it."
+  },
+  "defaultQuality": {
+    "message": "Default quality"
+  },
+  "audioOnly": {
+    "message": "Audio only: $1"
+  },
+  "segmentCount_one": {
+    "message": "$1 segment"
+  },
+  "segmentCount_other": {
+    "message": "$1 segments"
+  },
+  "track": {
+    "message": "Track"
+  },
+  "trackWithAudio": {
+    "message": "$1 + audio"
+  },
+  "trackNoAudio": {
+    "message": "$1, no audio"
+  },
+  "separateStreams": {
+    "message": "Separate audio and video"
+  },
+  "videoTrack": {
+    "message": "Video track"
+  },
+  "mergeToMp4": {
+    "message": "Merged into MP4"
+  },
+  "audioTrack": {
+    "message": "Audio track"
+  },
+  "errBlobLostRestart": {
+    "message": "The data was lost when the browser restarted. Please save it again."
+  },
+  "errHttpOnly": {
+    "message": "Only http and https links are supported"
+  },
+  "errBlobNoRedownload": {
+    "message": "Saved pages can’t be downloaded again. Go back to the page and save it again."
+  },
+  "errUnknownAction": {
+    "message": "Unknown action: $1"
+  },
+  "errDataMissing": {
+    "message": "Data not found"
+  },
+  "errDiskFull": {
+    "message": "Not enough disk space. Free up some space, then click “Resume”."
+  },
+  "errTempIo": {
+    "message": "Couldn’t read or write temporary data ($1). Click “Resume” to try again."
+  },
+  "errNetwork": {
+    "message": "Network connection failed. Check your connection, then click “Resume”."
+  },
+  "errDataLost": {
+    "message": "The data is no longer available. Please save it again."
+  },
+  "takeoverGotHtml": {
+    "message": "The server returned a web page instead of the file"
+  },
+  "takeoverSizeMismatch": {
+    "message": "The file size doesn’t match the browser’s download"
+  },
+  "errSaveFailed": {
+    "message": "Couldn’t save the file: $1"
+  },
+  "downloadItemLost": {
+    "message": "the download item disappeared"
+  },
+  "http400": {
+    "message": "Bad request (400)"
+  },
+  "http401": {
+    "message": "Sign-in or authorization required (401)"
+  },
+  "http403": {
+    "message": "Access denied (403): the link may have expired, or it needs to be opened again from the original page"
+  },
+  "http404": {
+    "message": "File not found (404)"
+  },
+  "http405": {
+    "message": "The server doesn’t allow this request (405)"
+  },
+  "http410": {
+    "message": "The link is no longer valid (410)"
+  },
+  "http416": {
+    "message": "Invalid range requested (416)"
+  },
+  "http429": {
+    "message": "Too many requests (429)"
+  },
+  "http451": {
+    "message": "Unavailable for legal reasons (451)"
+  },
+  "http500": {
+    "message": "Internal server error (500)"
+  },
+  "http502": {
+    "message": "Bad gateway (502)"
+  },
+  "http503": {
+    "message": "Service temporarily unavailable (503)"
+  },
+  "http504": {
+    "message": "Gateway timeout (504)"
+  },
+  "httpError": {
+    "message": "HTTP error $1"
+  },
+  "errTimeoutNoData": {
+    "message": "Connection timed out: no data for $1 seconds"
+  },
+  "errIncompleteAt": {
+    "message": "Incomplete data: missing data at byte $1"
+  },
+  "errIncompleteSize": {
+    "message": "Incomplete data: $1 of $2 bytes"
+  },
+  "errNoResponse": {
+    "message": "Connection timed out: the server stopped responding"
+  },
+  "errNotFinished": {
+    "message": "The download isn’t finished"
+  },
+  "errNoResume": {
+    "message": "Resuming isn’t supported"
+  },
+  "errNoMoreRanges": {
+    "message": "The server no longer supports resuming"
+  },
+  "errBadRange": {
+    "message": "The server returned the wrong byte range"
+  },
+  "errRemoteChanged": {
+    "message": "The file on the server has changed"
+  },
+  "errConnectionDropped": {
+    "message": "The connection dropped unexpectedly"
+  },
+  "errNoVariants": {
+    "message": "The master playlist has no usable quality levels"
+  },
+  "errVariantParse": {
+    "message": "Couldn’t read the playlist for this quality"
+  },
+  "errNoSegments": {
+    "message": "The playlist has no segments"
+  },
+  "errDrmAudio": {
+    "message": "The audio track is protected by DRM and can’t be downloaded"
+  },
+  "noteSkipped_one": {
+    "message": "Skipped $1 segment that couldn’t be downloaded"
+  },
+  "noteSkipped_other": {
+    "message": "Skipped $1 segments that couldn’t be downloaded"
+  },
+  "errNoSegmentsDownloaded": {
+    "message": "No segments could be downloaded"
+  },
+  "errKeyFormat": {
+    "message": "Unexpected decryption key format ($1 bytes). The site may use its own encryption."
+  },
+  "errSegmentIncomplete": {
+    "message": "Incomplete segment data"
+  },
+  "errDecrypt": {
+    "message": "Couldn’t decrypt a segment (key or IV mismatch)"
+  },
+  "errTooManySkipped": {
+    "message": "Too many segments failed to download ($1)"
+  },
+  "noteLiveEnded": {
+    "message": "The live stream stopped; the recording was saved"
+  },
+  "reasonInitMismatch": {
+    "message": "segment initialization data differs"
+  },
+  "reasonUnknownFormat": {
+    "message": "unknown segment format"
+  },
+  "reasonNoOutput": {
+    "message": "the conversion produced no data"
+  },
+  "reasonNotTs": {
+    "message": "not MPEG-TS"
+  },
+  "reasonNoPmt": {
+    "message": "program map table (PMT) not found"
+  },
+  "reasonEncodedAs": {
+    "message": "encoded as $1"
+  },
+  "noteKeptOriginal": {
+    "message": "Couldn’t convert to MP4 without re-encoding ($1), so it was saved in the original format (plays in VLC or PotPlayer)"
+  },
+  "noteAudioNotMerged": {
+    "message": "The separate audio track couldn’t be merged ($1)"
+  },
+  "noteMp4Failed": {
+    "message": "MP4 conversion failed ($1), so it was saved in the original format"
+  },
+  "errNotM3u8": {
+    "message": "Not a valid M3U8 playlist"
+  },
+  "errNoMoovInit": {
+    "message": "No moov box found; not a valid MP4 initialization segment"
+  },
+  "errSampleTable": {
+    "message": "Incomplete MP4 sample table"
+  },
+  "errStz2": {
+    "message": "stz2 sample tables aren’t supported yet"
+  },
+  "errCodecChanged": {
+    "message": "The video encoding changed partway through (an ad may have been inserted)"
+  },
+  "errNoMediaData": {
+    "message": "No usable audio or video data"
+  },
+  "errSourceMissing": {
+    "message": "A data source is missing"
+  },
+  "errMoovSize": {
+    "message": "moov size mismatch"
+  },
+  "errNoMoovFile": {
+    "message": "No moov box found; not a valid MP4 file"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "resume": {
+    "message": "Resume"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "startDownload": {
+    "message": "Start download"
+  },
+  "actionDownload": {
+    "message": "Download"
+  },
+  "actionRecord": {
+    "message": "Record"
+  },
+  "actionCopyLink": {
+    "message": "Copy link"
+  },
+  "linkCopied": {
+    "message": "Link copied"
+  },
+  "copyFailed": {
+    "message": "Couldn’t copy"
+  },
+  "downloadStarted": {
+    "message": "Download started"
+  },
+  "recordStarted": {
+    "message": "Recording started. Stop and save it from the download manager."
+  },
+  "downloadLinks": {
+    "message": "Download links"
+  },
+  "addedTasks_one": {
+    "message": "Added $1 download"
+  },
+  "addedTasks_other": {
+    "message": "Added $1 downloads"
+  },
+  "duplicatesN_one": {
+    "message": "$1 link is already in the list"
+  },
+  "duplicatesN_other": {
+    "message": "$1 links are already in the list"
+  },
+  "extensionUpdated": {
+    "message": "The extension was updated. Reload the page to use it."
+  },
+  "overlayDownload": {
+    "message": "Download video"
+  },
+  "overlayHide": {
+    "message": "Hide (on this page)"
+  },
+  "panelTitle": {
+    "message": "Downloadable videos"
+  },
+  "panelManager": {
+    "message": "Download manager"
+  },
+  "detecting": {
+    "message": "Detecting…"
+  },
+  "panelHint": {
+    "message": "Not listed? Play the video for a moment and try again."
+  },
+  "currentVideo": {
+    "message": "Current video"
+  },
+  "panelEmpty": {
+    "message": "No downloadable video stream has been detected yet. Play the video, wait until it starts buffering, then click again."
+  },
+  "openManagerTitle": {
+    "message": "Open download manager (Alt+Shift+D)"
+  },
+  "managerShort": {
+    "message": "Manager"
+  },
+  "popupMediaHead": {
+    "message": "On this page"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "clearMediaTitle": {
+    "message": "Clear the media detected on this page"
+  },
+  "pageTools": {
+    "message": "Page tools"
+  },
+  "toolSavePage": {
+    "message": "Save page"
+  },
+  "toolSaveHtml": {
+    "message": "Save as HTML"
+  },
+  "toolGrab": {
+    "message": "Batch download"
+  },
+  "toolNewTask": {
+    "message": "New download"
+  },
+  "toolSavePageTitle": {
+    "message": "Save the whole page (with images and styles) as one .mhtml file you can open offline"
+  },
+  "toolSaveHtmlTitle": {
+    "message": "Save the page’s current HTML (images still load from the web)"
+  },
+  "toolGrabTitle": {
+    "message": "List every link, image, audio and video on this page, then download the ones you pick"
+  },
+  "toolNewTaskTitle": {
+    "message": "Paste links to start new downloads"
+  },
+  "pasteLinksPlaceholder": {
+    "message": "Paste download links, one per line"
+  },
+  "popupActiveHead": {
+    "message": "In progress"
+  },
+  "viewAllTasks": {
+    "message": "All downloads"
+  },
+  "takeoverSwitch": {
+    "message": "Take over browser downloads"
+  },
+  "takeoverSwitchTitle": {
+    "message": "When on, matching browser downloads are handed to Shuttle DM and downloaded with multiple connections"
+  },
+  "takeoverOn": {
+    "message": "On: browser downloads will be handled by Shuttle DM"
+  },
+  "takeoverOff": {
+    "message": "Off: the browser will handle its own downloads"
+  },
+  "mediaLoading": {
+    "message": "Analyzing media on this page…"
+  },
+  "mediaEmptyTitle": {
+    "message": "No video or audio detected yet"
+  },
+  "mediaEmptyBody": {
+    "message": "Play a video on the page and downloadable items will appear here. You can also hover over the video and click “Download video”."
+  },
+  "otherFeaturesStillWork": {
+    "message": "Other features, such as saving pages, still work."
+  },
+  "chooseQuality": {
+    "message": "Choose quality"
+  },
+  "pageNotAllowed": {
+    "message": "The browser doesn’t allow extensions on this page"
+  },
+  "pageSavedMhtml": {
+    "message": "Page saved as MHTML"
+  },
+  "pageSavedHtml": {
+    "message": "Page saved as HTML"
+  },
+  "enterHttpLinks": {
+    "message": "Enter links that start with http:// or https://"
+  },
+  "linksAlreadyListed": {
+    "message": "These links are already in the download list"
+  },
+  "speedWithEta": {
+    "message": "$1 · $2 left"
+  },
+  "managerPageTitle": {
+    "message": "Download manager - Shuttle DM"
+  },
+  "taskActions": {
+    "message": "Download actions"
+  },
+  "newTask": {
+    "message": "New download"
+  },
+  "resumeAll": {
+    "message": "Resume all"
+  },
+  "pauseAll": {
+    "message": "Pause all"
+  },
+  "searchTasksPlaceholder": {
+    "message": "Search file names or URLs"
+  },
+  "searchTasks": {
+    "message": "Search downloads"
+  },
+  "openDownloadsFolder": {
+    "message": "Open downloads folder"
+  },
+  "taskCategories": {
+    "message": "Download categories"
+  },
+  "filterAll": {
+    "message": "All downloads"
+  },
+  "filterActive": {
+    "message": "Active"
+  },
+  "filterDone": {
+    "message": "Completed"
+  },
+  "filterUnfinished": {
+    "message": "Unfinished"
+  },
+  "clearDoneTitle": {
+    "message": "Removes them from the list only; downloaded files are kept"
+  },
+  "clearCompletedN_one": {
+    "message": "Clear $1 completed download"
+  },
+  "clearCompletedN_other": {
+    "message": "Clear $1 completed downloads"
+  },
+  "clearedCompleted": {
+    "message": "Removed from the list (the files are still on your computer)"
+  },
+  "downloadsTable": {
+    "message": "Downloads"
+  },
+  "colName": {
+    "message": "Name"
+  },
+  "colSize": {
+    "message": "Size"
+  },
+  "colProgress": {
+    "message": "Progress"
+  },
+  "colSpeed": {
+    "message": "Speed"
+  },
+  "colEta": {
+    "message": "Time left"
+  },
+  "colAdded": {
+    "message": "Added"
+  },
+  "emptyListTitle": {
+    "message": "No downloads yet"
+  },
+  "emptyListBody": {
+    "message": "Right-click a link and choose “Download link with Shuttle DM”, or play a video and click “Download video” on it. You can also paste links:"
+  },
+  "noMatchTitle": {
+    "message": "No matching downloads"
+  },
+  "noMatchQuery": {
+    "message": "Nothing matches “$1”."
+  },
+  "noMatchCategory": {
+    "message": "Nothing in this category yet."
+  },
+  "subRecorded": {
+    "message": "$1 recorded"
+  },
+  "subSegments": {
+    "message": "Segment $1/$2"
+  },
+  "subWithHost": {
+    "message": "$1 · $2"
+  },
+  "subMerge": {
+    "message": "Audio + video merge · $1"
+  },
+  "subSavedPage": {
+    "message": "Saved page · $1"
+  },
+  "approxSize": {
+    "message": "~$1"
+  },
+  "fileRecordMissing": {
+    "message": "Can’t find where this file was saved"
+  },
+  "fileMissing": {
+    "message": "The file is missing. It may have been moved or deleted."
+  },
+  "openFile": {
+    "message": "Open file"
+  },
+  "showInFolder": {
+    "message": "Show in folder"
+  },
+  "stopRecording": {
+    "message": "Stop recording and save"
+  },
+  "copyDownloadLink": {
+    "message": "Copy download link"
+  },
+  "openSourcePage": {
+    "message": "Open source page"
+  },
+  "redownload": {
+    "message": "Download again"
+  },
+  "deleteN_one": {
+    "message": "Delete $1 download"
+  },
+  "deleteN_other": {
+    "message": "Delete $1 downloads"
+  },
+  "taskDetails": {
+    "message": "Download details"
+  },
+  "kvUrl": {
+    "message": "Address"
+  },
+  "kvSourcePage": {
+    "message": "Source page"
+  },
+  "kvSavedTo": {
+    "message": "Saved to"
+  },
+  "kvResumable": {
+    "message": "Resumable"
+  },
+  "resumableYes": {
+    "message": "Yes (can be paused and resumed)"
+  },
+  "resumableNo": {
+    "message": "No (pausing restarts the download)"
+  },
+  "kvQuality": {
+    "message": "Quality"
+  },
+  "kvEncryption": {
+    "message": "Encryption"
+  },
+  "aesDecrypted": {
+    "message": "AES-128 (decrypted automatically)"
+  },
+  "kvOutput": {
+    "message": "Output format"
+  },
+  "outputMp4": {
+    "message": "MP4 (lossless remux)"
+  },
+  "kvParts": {
+    "message": "Parts"
+  },
+  "partAudio": {
+    "message": "Audio $1"
+  },
+  "partVideo": {
+    "message": "Video $1"
+  },
+  "kvNote": {
+    "message": "Note"
+  },
+  "kvError": {
+    "message": "Error"
+  },
+  "kvAdded": {
+    "message": "Added"
+  },
+  "kvCompleted": {
+    "message": "Completed"
+  },
+  "statDownloaded": {
+    "message": "Downloaded"
+  },
+  "statConnections": {
+    "message": "Connections"
+  },
+  "statRecorded": {
+    "message": "Recorded"
+  },
+  "statSegments": {
+    "message": "Segments"
+  },
+  "threadsLabel_one": {
+    "message": "$1 connection downloading (each line is the whole file; orange marks what that connection has finished)"
+  },
+  "threadsLabel_other": {
+    "message": "$1 connections downloading (each line is the whole file; orange marks what that connection has finished)"
+  },
+  "dlgNewTitle": {
+    "message": "New download"
+  },
+  "newUrlsPlaceholder": {
+    "message": "Paste links, one per line. Regular files and .m3u8 video streams are supported."
+  },
+  "fieldFilenameOptional": {
+    "message": "File name (optional)"
+  },
+  "filenamePlaceholder": {
+    "message": "Leave empty to use the name from the server"
+  },
+  "fieldConnections": {
+    "message": "Connections"
+  },
+  "optDefault": {
+    "message": "Default"
+  },
+  "fieldSubfolderOptional": {
+    "message": "Save to subfolder (optional)"
+  },
+  "subfolderPlaceholder": {
+    "message": "e.g. Courses/Week 1, inside your browser’s downloads folder"
+  },
+  "refererSettings": {
+    "message": "Referrer settings"
+  },
+  "refererLabel": {
+    "message": "Referer (address of the page the link came from)"
+  },
+  "noHttpLinks": {
+    "message": "No links starting with http:// or https:// were found"
+  },
+  "deleteFilesToo": {
+    "message": "Also delete the downloaded files from this computer"
+  },
+  "deleteOneTitle": {
+    "message": "Delete this download?"
+  },
+  "deleteNTitle_one": {
+    "message": "Delete $1 download?"
+  },
+  "deleteNTitle_other": {
+    "message": "Delete $1 downloads?"
+  },
+  "deleteOneText": {
+    "message": "“$1” will be removed from the list."
+  },
+  "deleteTempToo": {
+    "message": "Its temporary data will be deleted too."
+  },
+  "deleteManyText": {
+    "message": "These downloads will be removed from the list."
+  },
+  "deleteManyTemp_one": {
+    "message": "Temporary data for $1 unfinished download will be deleted too."
+  },
+  "deleteManyTemp_other": {
+    "message": "Temporary data for $1 unfinished downloads will be deleted too."
+  },
+  "statusActive_one": {
+    "message": "$1 download active · $2 in total"
+  },
+  "statusActive_other": {
+    "message": "$1 downloads active · $2 in total"
+  },
+  "statusIdle": {
+    "message": "Nothing is downloading"
+  },
+  "statusLimit": {
+    "message": "Limit $1"
+  },
+  "statusTakeoverOn": {
+    "message": "Taking over browser downloads"
+  },
+  "statusTakeoverOff": {
+    "message": "Not taking over browser downloads"
+  },
+  "tempDataTitle": {
+    "message": "Temporary data for downloads in progress. It’s cleaned up automatically when they finish."
+  },
+  "tempData": {
+    "message": "Temporary data $1"
+  },
+  "gotIt": {
+    "message": "Got it"
+  },
+  "openSettings": {
+    "message": "Open settings"
+  },
+  "welcomeTitle": {
+    "message": "Shuttle DM is ready"
+  },
+  "welcome1": {
+    "message": "When you play a video, the toolbar icon shows how many streams were found. Hover over a video and click “Download video”."
+  },
+  "welcome2": {
+    "message": "Right-click any link and choose “Download link with Shuttle DM”, or paste links here, to download with multiple connections."
+  },
+  "welcome3": {
+    "message": "The browser’s own downloads (archives, installers, videos and more) are handed to Shuttle DM automatically. You can turn this off in Settings."
+  },
+  "engineUnavailable": {
+    "message": "Can’t reach the download engine: $1"
+  },
+  "optionsPageTitle": {
+    "message": "Settings - Shuttle DM"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "secDownloads": {
+    "message": "Downloads"
+  },
+  "optThreads": {
+    "message": "Connections per download"
+  },
+  "optThreadsHelp": {
+    "message": "Files are split into parts that download at the same time. Browsers open at most 6 connections to one HTTP/1.1 server; HTTP/2 servers don’t have this limit."
+  },
+  "optMaxConcurrent": {
+    "message": "Simultaneous downloads"
+  },
+  "optMaxConcurrentHelp": {
+    "message": "Extra downloads wait in a queue and start when earlier ones finish."
+  },
+  "optSpeedLimit": {
+    "message": "Speed limit"
+  },
+  "optSpeedLimitHelp": {
+    "message": "Maximum combined speed of all downloads. 0 means no limit."
+  },
+  "optRetries": {
+    "message": "Retries when a connection fails"
+  },
+  "optRetriesHelp": {
+    "message": "A dropped connection reconnects automatically and continues from where it stopped."
+  },
+  "optSubfolder": {
+    "message": "Save to subfolder"
+  },
+  "optSubfolderHelp": {
+    "message": "Inside your browser’s downloads folder. Leave empty to save directly in the downloads folder."
+  },
+  "optSubfolderPlaceholder": {
+    "message": "e.g. Shuttle DM"
+  },
+  "optCategorize": {
+    "message": "Sort into folders by file type"
+  },
+  "optCategorizeHelp": {
+    "message": "Videos, music, documents, archives, programs, images, web pages and other files each get their own folder."
+  },
+  "optNotify": {
+    "message": "Notify me when a download finishes or fails"
+  },
+  "secVideo": {
+    "message": "Video downloads"
+  },
+  "optOverlay": {
+    "message": "Show a “Download video” button on web videos"
+  },
+  "optOverlayHelp": {
+    "message": "The button appears in the top-right corner when you hover over a video. Click it to pick a quality and download."
+  },
+  "optSniffMin": {
+    "message": "Ignore audio and video smaller than"
+  },
+  "optSniffMinHelp": {
+    "message": "Filters out small files such as notification sounds and preview clips."
+  },
+  "optHlsFormat": {
+    "message": "Save M3U8 streams as"
+  },
+  "optHlsFormatHelp": {
+    "message": "MP4 is rebuilt from the segments without quality loss and plays on phones and computers. Codecs that can’t be converted, such as HEVC, are saved as TS automatically."
+  },
+  "optHlsConcurrency": {
+    "message": "Segments downloaded at once"
+  },
+  "secTakeover": {
+    "message": "Browser download takeover"
+  },
+  "optTakeover": {
+    "message": "Hand browser downloads to Shuttle DM"
+  },
+  "optTakeoverHelp": {
+    "message": "Downloads that match the rules below are downloaded by Shuttle DM with multiple connections. If Shuttle DM can’t request the link again (for example, when a form has to be submitted), the browser finishes the download as usual."
+  },
+  "optTakeoverExts": {
+    "message": "File types to take over"
+  },
+  "optTakeoverExtsHelp": {
+    "message": "File extensions, separated by spaces."
+  },
+  "resetExts": {
+    "message": "Restore defaults"
+  },
+  "optTakeoverMin": {
+    "message": "Only take over files larger than"
+  },
+  "optTakeoverMinHelp": {
+    "message": "Small files are quicker for the browser to download by itself."
+  },
+  "optTakeoverExclude": {
+    "message": "Never take over on these sites"
+  },
+  "optTakeoverExcludeHelp": {
+    "message": "Domains separated by spaces or new lines, e.g. files.example.com."
+  },
+  "optTakeoverExcludePlaceholder": {
+    "message": "Leave empty to apply to all sites"
+  },
+  "secStorage": {
+    "message": "Storage and shortcut"
+  },
+  "optTempData": {
+    "message": "Temporary data"
+  },
+  "optTempDataHelp": {
+    "message": "Downloads in progress are kept in storage space the browser gives the extension. When they finish, they move to your downloads folder and the space is freed."
+  },
+  "shortcutIs": {
+    "message": "Shortcut: $1"
+  },
+  "shortcutNone": {
+    "message": "No shortcut set"
+  },
+  "changeShortcut": {
+    "message": "Change shortcut"
+  },
+  "secAbout": {
+    "message": "About"
+  },
+  "aboutVersion": {
+    "message": "Shuttle DM $1."
+  },
+  "aboutLocal": {
+    "message": "Downloading and video merging happen entirely in your browser. Nothing goes through third-party servers."
+  },
+  "aboutOss": {
+    "message": "Open-source components: mux.js (Apache-2.0, TS remuxing) and the Barlow Semi Condensed font (SIL OFL 1.1)."
+  },
+  "aboutLegal": {
+    "message": "Only download content you have the right to save. Videos protected by DRM (such as Widevine or FairPlay) can’t and won’t be downloaded."
+  },
+  "aboutSource": {
+    "message": "Source code: $1"
+  },
+  "grabPageTitle": {
+    "message": "Batch download - Shuttle DM"
+  },
+  "grabPageTitleWith": {
+    "message": "Batch download: $1 - Shuttle DM"
+  },
+  "toolGrabFull": {
+    "message": "Batch download"
+  },
+  "filterByType": {
+    "message": "Filter by type"
+  },
+  "tabAll": {
+    "message": "All"
+  },
+  "grabSearchPlaceholder": {
+    "message": "Filter by URL or text (* = wildcard)"
+  },
+  "grabSearchLabel": {
+    "message": "Filter links"
+  },
+  "selectAllInList": {
+    "message": "Select everything in the list"
+  },
+  "colLinkText": {
+    "message": "Link text"
+  },
+  "colUrl": {
+    "message": "URL"
+  },
+  "saveTo": {
+    "message": "Save to"
+  },
+  "grabFolderPlaceholder": {
+    "message": "Subfolder in your downloads folder (optional)"
+  },
+  "downloadWith": {
+    "message": "Download with"
+  },
+  "modeEngine": {
+    "message": "Shuttle DM (multiple connections)"
+  },
+  "modeBrowser": {
+    "message": "The browser’s own downloader"
+  },
+  "selectItem": {
+    "message": "Select $1"
+  },
+  "grabNoMatch": {
+    "message": "No links match."
+  },
+  "grabNoLinks": {
+    "message": "No links were found on this page."
+  },
+  "selectedCount_one": {
+    "message": "$1 selected"
+  },
+  "selectedCount_other": {
+    "message": "$1 selected"
+  },
+  "downloadSelected": {
+    "message": "Download selected"
+  },
+  "sentToBrowser_one": {
+    "message": "Sent $1 file to the browser"
+  },
+  "sentToBrowser_other": {
+    "message": "Sent $1 files to the browser"
+  },
+  "grabExpired": {
+    "message": "This link list has expired. Go back to the page and open “Batch download” again."
+  },
+  "grabSelection": {
+    "message": "Selection"
+  }
+}

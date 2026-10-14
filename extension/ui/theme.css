@@ -1,0 +1,190 @@
+/* Shuttle DM — shared theme
+   Indigo for structure, saffron (the shuttle) for progress being woven; numbers use Barlow Semi Condensed. */
+
+@font-face {
+  font-family: "Barlow SC";
+  src: url("fonts/barlow-sc-500.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+2010-2027, U+2030-205E, U+20AC, U+2122, U+2190-21FF;
+}
+@font-face {
+  font-family: "Barlow SC";
+  src: url("fonts/barlow-sc-600.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+2010-2027, U+2030-205E, U+20AC, U+2122, U+2190-21FF;
+}
+
+:root {
+  color-scheme: light;
+  --ink: #1e2b4f;
+  --ink-2: #33426d;
+  --ink-hover: #26365f;
+  --on-ink: #ffffff;
+  --text: #1b2337;
+  --muted: #5b6583;
+  --faint: #8a93ad;
+  --paper: #f5f6fa;
+  --surface: #ffffff;
+  --raised: #ffffff;
+  --line: #dce1ec;
+  --line-2: #eceff5;
+  --hover: #f0f2f8;
+  --selected: #e7ecfa;
+  --thread: #f08c00;
+  --thread-soft: #fff2de;
+  --done: #2b8a6e;
+  --done-soft: #e2f3ec;
+  --error: #c2412d;
+  --error-soft: #fbe8e4;
+  --warp: #e3e7f0;
+  --woven: #2f4580;
+  --focus: #3d63dd;
+  --shadow: 0 1px 2px rgba(30, 43, 79, 0.06), 0 8px 24px rgba(30, 43, 79, 0.12);
+  --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei UI", "Noto Sans CJK SC", sans-serif;
+  --font-data: "Barlow SC", var(--font-ui);
+  --r-sm: 4px;
+  --r-md: 8px;
+}
+
+/* Chinese, Japanese and Korean text uses each language's own glyph shapes */
+:root:lang(zh) { --font-ui: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif; }
+:root:lang(ja) { --font-ui: system-ui, -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo UI", Meiryo, "Noto Sans CJK JP", "Source Han Sans JP", sans-serif; }
+:root:lang(ko) { --font-ui: system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Source Han Sans KR", sans-serif; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --ink: #0c1324;
+    --ink-2: #1b2645;
+    --ink-hover: #1a2440;
+    --on-ink: #e7eaf3;
+    --text: #e4e8f2;
+    --muted: #a1aac4;
+    --faint: #727c9b;
+    --paper: #10172a;
+    --surface: #161f36;
+    --raised: #1c2642;
+    --line: #2a3555;
+    --line-2: #212b47;
+    --hover: #1e2843;
+    --selected: #24315a;
+    --thread: #ffa62b;
+    --thread-soft: #3a2a12;
+    --done: #4cc39c;
+    --done-soft: #15332b;
+    --error: #ff7a63;
+    --error-soft: #3d1d18;
+    --warp: #26304d;
+    --woven: #7895ec;
+    --focus: #8aa6ff;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.45);
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--text);
+  font: 13px/1.5 var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+.data { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+.btn:hover:not(:disabled) { background: var(--hover); }
+.btn:disabled { opacity: 0.45; cursor: default; }
+.btn svg { width: 16px; height: 16px; flex: none; }
+.btn-primary { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
+.btn-primary:hover:not(:disabled) { background: var(--ink-hover); }
+@media (prefers-color-scheme: dark) {
+  .btn-primary { background: var(--woven); border-color: var(--woven); color: #0c1324; }
+  .btn-primary:hover:not(:disabled) { background: #8aa6ff; }
+}
+.btn-quiet { border-color: transparent; background: transparent; }
+.btn-quiet:hover:not(:disabled) { background: var(--hover); }
+.btn-danger { color: var(--error); }
+.btn-icon { width: 30px; padding: 0; }
+
+/* Forms */
+.input, .select, textarea.input {
+  height: 30px;
+  padding: 0 9px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  color: var(--text);
+  min-width: 0;
+}
+textarea.input { height: auto; padding: 7px 9px; resize: vertical; line-height: 1.5; }
+.select { padding-right: 24px; }
+.input:focus, .select:focus, textarea.input:focus { outline: none; border-color: var(--focus); box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 18%, transparent); }
+
+/* Switches */
+.switch { position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+.switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.switch .track {
+  width: 32px; height: 18px; border-radius: 9px; background: var(--line); position: relative; flex: none; transition: background 0.15s;
+}
+.switch .track::after {
+  content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%; background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); transition: transform 0.15s;
+}
+.switch input:checked + .track { background: var(--done); }
+.switch input:checked + .track::after { transform: translateX(14px); }
+.switch input:focus-visible + .track { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* Tags */
+.tag {
+  display: inline-flex; align-items: center; height: 18px; padding: 0 5px; border-radius: 3px;
+  border: 1px solid var(--line); color: var(--muted); font: 600 11px/1 var(--font-data); letter-spacing: 0.02em;
+}
+.tag-thread { border-color: color-mix(in srgb, var(--thread) 45%, transparent); color: var(--thread); background: var(--thread-soft); }
+.tag-done { border-color: color-mix(in srgb, var(--done) 40%, transparent); color: var(--done); background: var(--done-soft); }
+.tag-error { border-color: color-mix(in srgb, var(--error) 40%, transparent); color: var(--error); background: var(--error-soft); }
+
+/* Loom progress bar */
+.loom { display: block; width: 100%; height: 6px; border-radius: 3px; background: var(--warp); }
+.loom.big { height: 18px; border-radius: 4px; }
+
+/* Toasts */
+.toast-host { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); display: grid; gap: 8px; z-index: 1000; pointer-events: none; }
+.toast {
+  padding: 8px 14px; border-radius: var(--r-md); background: var(--ink); color: var(--on-ink); box-shadow: var(--shadow);
+  font-size: 13px; max-width: min(92vw, 420px); animation: toast-in 0.18s ease-out;
+}
+@media (prefers-color-scheme: dark) { .toast { background: var(--raised); color: var(--text); border: 1px solid var(--line); } }
+.toast.error { background: var(--error); color: #fff; }
+@keyframes toast-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.muted { color: var(--muted); }
+.faint { color: var(--faint); }
+.hidden { display: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="brand">Shuttle DM</title>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="brand" id="brand"><span data-i18n="brand">Shuttle DM</span></div>
+    <div class="bar-actions">
+      <button class="bar-btn" id="openManager" data-i18n-title="openManagerTitle"></button>
+      <button class="bar-btn icon-only" id="openOptions" data-i18n-title="settings" data-i18n-aria-label="settings"></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="media" aria-labelledby="mediaHead">
+      <div class="sec-head">
+        <h2 id="mediaHead"><span data-i18n="popupMediaHead">On this page</span> <span class="count data" id="mediaCount"></span></h2>
+        <button class="link-btn hidden" id="clearMedia" data-i18n="clear" data-i18n-title="clearMediaTitle">Clear</button>
+      </div>
+      <div id="mediaList" class="media-list" aria-live="polite"></div>
+    </section>
+
+    <section class="tools" data-i18n-aria-label="pageTools">
+      <button class="tool" id="saveMhtml" data-i18n-title="toolSavePageTitle"></button>
+      <button class="tool" id="saveHtml" data-i18n-title="toolSaveHtmlTitle"></button>
+      <button class="tool" id="grabAll" data-i18n-title="toolGrabTitle"></button>
+      <button class="tool" id="newTask" data-i18n-title="toolNewTaskTitle"></button>
+    </section>
+
+    <form class="new-task hidden" id="newForm">
+      <textarea class="input" id="newUrls" rows="3" data-i18n-placeholder="pasteLinksPlaceholder" data-i18n-aria-label="downloadLinks"></textarea>
+      <div class="new-actions">
+        <button class="btn btn-quiet" type="button" id="newCancel" data-i18n="cancel">Cancel</button>
+        <button class="btn btn-primary" type="submit" id="newSubmit"></button>
+      </div>
+    </form>
+
+    <section class="active hidden" id="activeSec" aria-labelledby="activeHead">
+      <div class="sec-head">
+        <h2 id="activeHead"><span data-i18n="popupActiveHead">In progress</span> <span class="count data" id="activeCount"></span></h2>
+        <button class="link-btn" id="viewAll" data-i18n="viewAllTasks">All downloads</button>
+      </div>
+      <div id="activeList" class="active-list"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <label class="switch" data-i18n-title="takeoverSwitchTitle">
+      <input type="checkbox" id="takeover">
+      <span class="track"></span>
+      <span data-i18n="takeoverSwitch">Take over browser downloads</span>
+    </label>
+    <span class="faint data" id="version"></span>
+  </footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

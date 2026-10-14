@@ -1,0 +1,1172 @@
+{
+  "extName": {
+    "message": "Shuttle DM – ダウンロードマネージャー"
+  },
+  "extShortName": {
+    "message": "Shuttle DM"
+  },
+  "extDescription": {
+    "message": "マルチ接続で高速化し、中断しても再開できるダウンロードマネージャー。ウェブ動画（MP4・M3U8）の保存、音声と映像の結合、ページ保存、一括ダウンロードに対応。"
+  },
+  "localeTag": {
+    "message": "ja"
+  },
+  "brand": {
+    "message": "Shuttle DM"
+  },
+  "cmdOpenManager": {
+    "message": "ダウンロードマネージャーを開く"
+  },
+  "unitB": {
+    "message": "$1 B"
+  },
+  "unitKB": {
+    "message": "$1 KB"
+  },
+  "unitMB": {
+    "message": "$1 MB"
+  },
+  "unitGB": {
+    "message": "$1 GB"
+  },
+  "unitTB": {
+    "message": "$1 TB"
+  },
+  "unitKBps": {
+    "message": "KB/s"
+  },
+  "unitKBshort": {
+    "message": "KB"
+  },
+  "perSecond": {
+    "message": "$1/s"
+  },
+  "etaSeconds": {
+    "message": "$1 秒"
+  },
+  "etaMinutes": {
+    "message": "$1 分 $2 秒"
+  },
+  "etaHours": {
+    "message": "$1 時間 $2 分"
+  },
+  "etaDays": {
+    "message": "$1 日"
+  },
+  "timeToday": {
+    "message": "今日 $1"
+  },
+  "timeYesterday": {
+    "message": "昨日 $1"
+  },
+  "labelWithDetail": {
+    "message": "$1（$2）"
+  },
+  "noteSeparator": {
+    "message": "。"
+  },
+  "catVideo": {
+    "message": "動画"
+  },
+  "catAudio": {
+    "message": "音楽"
+  },
+  "catDocument": {
+    "message": "ドキュメント"
+  },
+  "catArchive": {
+    "message": "圧縮ファイル"
+  },
+  "catProgram": {
+    "message": "プログラム"
+  },
+  "catImage": {
+    "message": "画像"
+  },
+  "catPage": {
+    "message": "ウェブページ"
+  },
+  "catOther": {
+    "message": "その他"
+  },
+  "stateQueued": {
+    "message": "待機中"
+  },
+  "stateDownloading": {
+    "message": "ダウンロード中"
+  },
+  "statePaused": {
+    "message": "一時停止中"
+  },
+  "stateMerging": {
+    "message": "結合中"
+  },
+  "stateSaving": {
+    "message": "保存中"
+  },
+  "stateCompleted": {
+    "message": "完了"
+  },
+  "stateError": {
+    "message": "エラー"
+  },
+  "stateRecording": {
+    "message": "録画中"
+  },
+  "menuDownloadLink": {
+    "message": "Shuttle DM でリンク先をダウンロード"
+  },
+  "menuDownloadMedia": {
+    "message": "Shuttle DM でこの動画・音声をダウンロード"
+  },
+  "menuDownloadImage": {
+    "message": "Shuttle DM で画像をダウンロード"
+  },
+  "menuGrabSelection": {
+    "message": "選択範囲内のリンクをすべてダウンロード…"
+  },
+  "menuGrabAll": {
+    "message": "このページのリンクとリソースをすべてダウンロード…"
+  },
+  "menuSaveMhtml": {
+    "message": "ページを MHTML で保存（単一ファイル）"
+  },
+  "menuSaveHtml": {
+    "message": "ページを HTML で保存（DOM スナップショット）"
+  },
+  "notifyActionFailed": {
+    "message": "操作に失敗しました"
+  },
+  "notifyDone": {
+    "message": "ダウンロード完了"
+  },
+  "notifyFailed": {
+    "message": "ダウンロード失敗"
+  },
+  "notifyNoMediaTitle": {
+    "message": "ダウンロードできるメディアが見つかりません"
+  },
+  "notifyNoMediaBody": {
+    "message": "先に動画を再生し、ツールバーの Shuttle DM アイコンをクリックして検出された動画を確認してください。"
+  },
+  "siteNotSupported": {
+    "message": "このサイトには対応していません"
+  },
+  "blockedSiteMessage": {
+    "message": "Shuttle DM は YouTube の動画のダウンロードには対応していません。"
+  },
+  "alreadyInList": {
+    "message": "すでにダウンロード一覧にあります"
+  },
+  "errCannotSaveFile": {
+    "message": "ファイルを保存できません"
+  },
+  "errNotAllowed": {
+    "message": "この操作は許可されていません"
+  },
+  "errInvalidUrl": {
+    "message": "無効なダウンロード URL です"
+  },
+  "errUnknownCommand": {
+    "message": "不明なコマンド: $1"
+  },
+  "errEngineNoResponse": {
+    "message": "ダウンロードエンジンが応答しません"
+  },
+  "errPageNotSavable": {
+    "message": "このページは保存できません（ブラウザーまたは拡張機能のページ）"
+  },
+  "defaultPageName": {
+    "message": "ウェブページ"
+  },
+  "errReadPage": {
+    "message": "ページの内容を読み取れません"
+  },
+  "errSavePageUnable": {
+    "message": "このページを保存できません"
+  },
+  "errPageEmpty": {
+    "message": "保存したページが空です"
+  },
+  "errSavePageFailed": {
+    "message": "ページを保存できませんでした: $1"
+  },
+  "unknownReason": {
+    "message": "原因不明"
+  },
+  "savedPageComment": {
+    "message": "Shuttle DM で $1 に保存（元のページ: $2）"
+  },
+  "dashManifest": {
+    "message": "DASH マニフェスト"
+  },
+  "dashNote": {
+    "message": "DASH マニフェストはまだ直接ダウンロードできません。再生中に検出された音声・映像トラックは別に表示されます"
+  },
+  "encryptedTrack": {
+    "message": "暗号化トラック"
+  },
+  "drmMediaNote": {
+    "message": "このメディアは DRM で保護されているため、ダウンロードできません"
+  },
+  "drmVideoNote": {
+    "message": "この動画は DRM（Widevine、FairPlay など）で保護されているため、ダウンロードできません"
+  },
+  "sizeUnknown": {
+    "message": "サイズ不明"
+  },
+  "live": {
+    "message": "ライブ"
+  },
+  "playlistParseFailed": {
+    "message": "プレイリストを解析できませんでした（$1）。ダウンロードは試せます"
+  },
+  "defaultQuality": {
+    "message": "標準画質"
+  },
+  "audioOnly": {
+    "message": "音声のみ: $1"
+  },
+  "segmentCount_one": {
+    "message": "$1 個のセグメント"
+  },
+  "segmentCount_other": {
+    "message": "$1 個のセグメント"
+  },
+  "track": {
+    "message": "トラック"
+  },
+  "trackWithAudio": {
+    "message": "$1 + 音声"
+  },
+  "trackNoAudio": {
+    "message": "$1（音声なし）"
+  },
+  "separateStreams": {
+    "message": "音声と映像が別々"
+  },
+  "videoTrack": {
+    "message": "映像トラック"
+  },
+  "mergeToMp4": {
+    "message": "MP4 に自動結合"
+  },
+  "audioTrack": {
+    "message": "音声トラック"
+  },
+  "errBlobLostRestart": {
+    "message": "ブラウザーの再起動でデータが失われました。もう一度保存してください"
+  },
+  "errHttpOnly": {
+    "message": "http / https のリンクのみ対応しています"
+  },
+  "errBlobNoRedownload": {
+    "message": "保存したページは再ダウンロードできません。元のページでもう一度保存してください"
+  },
+  "errUnknownAction": {
+    "message": "不明な操作: $1"
+  },
+  "errDataMissing": {
+    "message": "データが見つかりません"
+  },
+  "errDiskFull": {
+    "message": "ディスクの空き容量が不足しています。空きを確保してから「再開」をクリックしてください"
+  },
+  "errTempIo": {
+    "message": "一時データの読み書きに失敗しました（$1）。「再開」をクリックして再試行してください"
+  },
+  "errNetwork": {
+    "message": "ネットワークに接続できません。接続を確認してから「再開」をクリックしてください"
+  },
+  "errDataLost": {
+    "message": "データが失われました。もう一度保存してください"
+  },
+  "takeoverGotHtml": {
+    "message": "サーバーがファイルではなくウェブページを返しました"
+  },
+  "takeoverSizeMismatch": {
+    "message": "ファイルサイズがブラウザーのダウンロードと一致しません"
+  },
+  "errSaveFailed": {
+    "message": "ファイルを保存できませんでした: $1"
+  },
+  "downloadItemLost": {
+    "message": "ダウンロード項目が見つかりません"
+  },
+  "http400": {
+    "message": "不正なリクエスト (400)"
+  },
+  "http401": {
+    "message": "ログインまたは認証が必要です (401)"
+  },
+  "http403": {
+    "message": "アクセスが拒否されました (403)。リンクの期限が切れたか、元のページから取得し直す必要があります"
+  },
+  "http404": {
+    "message": "ファイルが見つかりません (404)"
+  },
+  "http405": {
+    "message": "サーバーがこのリクエストを許可していません (405)"
+  },
+  "http410": {
+    "message": "リンクは無効になっています (410)"
+  },
+  "http416": {
+    "message": "要求した範囲が無効です (416)"
+  },
+  "http429": {
+    "message": "リクエストが多すぎます (429)"
+  },
+  "http451": {
+    "message": "法的な理由により利用できません (451)"
+  },
+  "http500": {
+    "message": "サーバー内部エラー (500)"
+  },
+  "http502": {
+    "message": "ゲートウェイエラー (502)"
+  },
+  "http503": {
+    "message": "サービスが一時的に利用できません (503)"
+  },
+  "http504": {
+    "message": "ゲートウェイタイムアウト (504)"
+  },
+  "httpError": {
+    "message": "HTTP エラー $1"
+  },
+  "errTimeoutNoData": {
+    "message": "接続がタイムアウトしました: $1 秒間データを受信していません"
+  },
+  "errIncompleteAt": {
+    "message": "データが不完全です: $1 バイト目のデータがありません"
+  },
+  "errIncompleteSize": {
+    "message": "データが不完全です: $1 / $2 バイト"
+  },
+  "errNoResponse": {
+    "message": "接続がタイムアウトしました: サーバーから長時間応答がありません"
+  },
+  "errNotFinished": {
+    "message": "ダウンロードが完了していません"
+  },
+  "errNoResume": {
+    "message": "再開に対応していません"
+  },
+  "errNoMoreRanges": {
+    "message": "サーバーが再開に対応しなくなりました"
+  },
+  "errBadRange": {
+    "message": "サーバーが誤った範囲のデータを返しました"
+  },
+  "errRemoteChanged": {
+    "message": "サーバー上のファイルが変更されました"
+  },
+  "errConnectionDropped": {
+    "message": "接続が予期せず切断されました"
+  },
+  "errNoVariants": {
+    "message": "マスタープレイリストに利用できる画質がありません"
+  },
+  "errVariantParse": {
+    "message": "この画質のプレイリストを解析できません"
+  },
+  "errNoSegments": {
+    "message": "プレイリストにセグメントがありません"
+  },
+  "errDrmAudio": {
+    "message": "音声トラックは DRM で保護されているため、ダウンロードできません"
+  },
+  "noteSkipped_one": {
+    "message": "ダウンロードできなかった $1 個のセグメントをスキップしました"
+  },
+  "noteSkipped_other": {
+    "message": "ダウンロードできなかった $1 個のセグメントをスキップしました"
+  },
+  "errNoSegmentsDownloaded": {
+    "message": "セグメントを 1 つもダウンロードできませんでした"
+  },
+  "errKeyFormat": {
+    "message": "復号キーの形式が想定外です（$1 バイト）。サイト独自の暗号化の可能性があります"
+  },
+  "errSegmentIncomplete": {
+    "message": "セグメントのデータが不完全です"
+  },
+  "errDecrypt": {
+    "message": "セグメントを復号できませんでした（キーまたは IV が一致しません）"
+  },
+  "errTooManySkipped": {
+    "message": "ダウンロードできないセグメントが多すぎます（$1）"
+  },
+  "noteLiveEnded": {
+    "message": "ライブ配信が途切れたため、録画した内容を保存しました"
+  },
+  "reasonInitMismatch": {
+    "message": "セグメントの初期化情報が一致しません"
+  },
+  "reasonUnknownFormat": {
+    "message": "不明なセグメント形式"
+  },
+  "reasonNoOutput": {
+    "message": "変換後のデータがありません"
+  },
+  "reasonNotTs": {
+    "message": "MPEG-TS ではありません"
+  },
+  "reasonNoPmt": {
+    "message": "プログラムマップテーブル (PMT) が見つかりません"
+  },
+  "reasonEncodedAs": {
+    "message": "コーデックが $1"
+  },
+  "noteKeptOriginal": {
+    "message": "MP4 に無劣化で変換できないため（$1）、元の形式で保存しました（VLC や PotPlayer で再生できます）"
+  },
+  "noteAudioNotMerged": {
+    "message": "別の音声トラックを結合できませんでした（$1）"
+  },
+  "noteMp4Failed": {
+    "message": "MP4 への変換に失敗したため（$1）、元の形式で保存しました"
+  },
+  "errNotM3u8": {
+    "message": "有効な M3U8 プレイリストではありません"
+  },
+  "errNoMoovInit": {
+    "message": "moov が見つかりません。有効な MP4 初期化セグメントではありません"
+  },
+  "errSampleTable": {
+    "message": "MP4 のサンプルテーブルが不完全です"
+  },
+  "errStz2": {
+    "message": "stz2 サンプルテーブルにはまだ対応していません"
+  },
+  "errCodecChanged": {
+    "message": "動画のエンコード設定が途中で変わりました（広告が挿入された可能性があります）"
+  },
+  "errNoMediaData": {
+    "message": "使用できる音声・映像データがありません"
+  },
+  "errSourceMissing": {
+    "message": "データソースがありません"
+  },
+  "errMoovSize": {
+    "message": "moov のサイズが一致しません"
+  },
+  "errNoMoovFile": {
+    "message": "moov が見つかりません。有効な MP4 ファイルではありません"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "resume": {
+    "message": "再開"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "startDownload": {
+    "message": "ダウンロード開始"
+  },
+  "actionDownload": {
+    "message": "ダウンロード"
+  },
+  "actionRecord": {
+    "message": "録画"
+  },
+  "actionCopyLink": {
+    "message": "リンクをコピー"
+  },
+  "linkCopied": {
+    "message": "リンクをコピーしました"
+  },
+  "copyFailed": {
+    "message": "コピーできませんでした"
+  },
+  "downloadStarted": {
+    "message": "ダウンロードを開始しました"
+  },
+  "recordStarted": {
+    "message": "録画を開始しました。ダウンロードマネージャーで停止・保存できます"
+  },
+  "downloadLinks": {
+    "message": "ダウンロードリンク"
+  },
+  "addedTasks_one": {
+    "message": "$1 件のダウンロードを追加しました"
+  },
+  "addedTasks_other": {
+    "message": "$1 件のダウンロードを追加しました"
+  },
+  "duplicatesN_one": {
+    "message": "$1 件のリンクはすでに一覧にあります"
+  },
+  "duplicatesN_other": {
+    "message": "$1 件のリンクはすでに一覧にあります"
+  },
+  "extensionUpdated": {
+    "message": "拡張機能が更新されました。ページを再読み込みしてください"
+  },
+  "overlayDownload": {
+    "message": "この動画をダウンロード"
+  },
+  "overlayHide": {
+    "message": "非表示（このページ）"
+  },
+  "panelTitle": {
+    "message": "ダウンロードできる動画"
+  },
+  "panelManager": {
+    "message": "ダウンロードマネージャー"
+  },
+  "detecting": {
+    "message": "検出中…"
+  },
+  "panelHint": {
+    "message": "見つからない場合は、動画を少し再生してから再度お試しください"
+  },
+  "currentVideo": {
+    "message": "再生中の動画"
+  },
+  "panelEmpty": {
+    "message": "ダウンロードできる動画ストリームはまだ検出されていません。動画を再生し、読み込みが始まってからもう一度クリックしてください。"
+  },
+  "openManagerTitle": {
+    "message": "ダウンロードマネージャーを開く（Alt+Shift+D）"
+  },
+  "managerShort": {
+    "message": "マネージャー"
+  },
+  "popupMediaHead": {
+    "message": "このページの動画"
+  },
+  "clear": {
+    "message": "クリア"
+  },
+  "clearMediaTitle": {
+    "message": "このページで検出したメディアの一覧をクリア"
+  },
+  "pageTools": {
+    "message": "ページツール"
+  },
+  "toolSavePage": {
+    "message": "ページを保存"
+  },
+  "toolSaveHtml": {
+    "message": "HTML で保存"
+  },
+  "toolGrab": {
+    "message": "一括ダウンロード"
+  },
+  "toolNewTask": {
+    "message": "新規ダウンロード"
+  },
+  "toolSavePageTitle": {
+    "message": "ページ全体（画像やスタイルを含む）を、オフラインで開ける 1 つの .mhtml ファイルとして保存"
+  },
+  "toolSaveHtmlTitle": {
+    "message": "現在のページの HTML を保存（画像などはネットから読み込みます）"
+  },
+  "toolGrabTitle": {
+    "message": "このページのリンク・画像・音声・動画を一覧表示し、選んだものをまとめてダウンロード"
+  },
+  "toolNewTaskTitle": {
+    "message": "リンクを貼り付けて新しいダウンロードを作成"
+  },
+  "pasteLinksPlaceholder": {
+    "message": "ダウンロードリンクを 1 行に 1 つずつ貼り付け"
+  },
+  "popupActiveHead": {
+    "message": "ダウンロード中"
+  },
+  "viewAllTasks": {
+    "message": "すべてのタスク"
+  },
+  "takeoverSwitch": {
+    "message": "ブラウザーのダウンロードを引き継ぐ"
+  },
+  "takeoverSwitchTitle": {
+    "message": "オンにすると、条件に合うブラウザーのダウンロードを Shuttle DM がマルチ接続で引き継ぎます"
+  },
+  "takeoverOn": {
+    "message": "オン: ブラウザーのダウンロードを Shuttle DM が引き継ぎます"
+  },
+  "takeoverOff": {
+    "message": "オフ: ブラウザーが自分でダウンロードします"
+  },
+  "mediaLoading": {
+    "message": "このページのメディアを解析中…"
+  },
+  "mediaEmptyTitle": {
+    "message": "動画や音声はまだ検出されていません"
+  },
+  "mediaEmptyBody": {
+    "message": "ページの動画を再生すると、ダウンロードできる項目がここに表示されます。動画にマウスを重ねて「この動画をダウンロード」をクリックすることもできます。"
+  },
+  "otherFeaturesStillWork": {
+    "message": "ページの保存など、ほかの機能は使えます。"
+  },
+  "chooseQuality": {
+    "message": "画質を選択"
+  },
+  "pageNotAllowed": {
+    "message": "このページでは拡張機能を使用できません"
+  },
+  "pageSavedMhtml": {
+    "message": "ページを MHTML で保存しました"
+  },
+  "pageSavedHtml": {
+    "message": "ページを HTML で保存しました"
+  },
+  "enterHttpLinks": {
+    "message": "http:// または https:// で始まるリンクを入力してください"
+  },
+  "linksAlreadyListed": {
+    "message": "これらのリンクはすでにダウンロード一覧にあります"
+  },
+  "speedWithEta": {
+    "message": "$1・残り $2"
+  },
+  "managerPageTitle": {
+    "message": "ダウンロードマネージャー - Shuttle DM"
+  },
+  "taskActions": {
+    "message": "タスクの操作"
+  },
+  "newTask": {
+    "message": "新規ダウンロード"
+  },
+  "resumeAll": {
+    "message": "すべて再開"
+  },
+  "pauseAll": {
+    "message": "すべて一時停止"
+  },
+  "searchTasksPlaceholder": {
+    "message": "ファイル名や URL で検索"
+  },
+  "searchTasks": {
+    "message": "タスクを検索"
+  },
+  "openDownloadsFolder": {
+    "message": "ダウンロードフォルダーを開く"
+  },
+  "taskCategories": {
+    "message": "タスクの分類"
+  },
+  "filterAll": {
+    "message": "すべてのタスク"
+  },
+  "filterActive": {
+    "message": "進行中"
+  },
+  "filterDone": {
+    "message": "完了"
+  },
+  "filterUnfinished": {
+    "message": "未完了"
+  },
+  "clearDoneTitle": {
+    "message": "一覧から削除するだけで、ダウンロードしたファイルは残ります"
+  },
+  "clearCompletedN_one": {
+    "message": "完了した $1 件のタスクを消去"
+  },
+  "clearCompletedN_other": {
+    "message": "完了した $1 件のタスクを消去"
+  },
+  "clearedCompleted": {
+    "message": "一覧から削除しました（ファイルはパソコンに残っています）"
+  },
+  "downloadsTable": {
+    "message": "ダウンロードタスク"
+  },
+  "colName": {
+    "message": "ファイル名"
+  },
+  "colSize": {
+    "message": "サイズ"
+  },
+  "colProgress": {
+    "message": "進行状況"
+  },
+  "colSpeed": {
+    "message": "速度"
+  },
+  "colEta": {
+    "message": "残り時間"
+  },
+  "colAdded": {
+    "message": "追加日時"
+  },
+  "emptyListTitle": {
+    "message": "ダウンロード一覧は空です"
+  },
+  "emptyListBody": {
+    "message": "リンクを右クリックして「Shuttle DM でリンク先をダウンロード」を選ぶか、動画を再生して「この動画をダウンロード」をクリックします。リンクを直接貼り付けることもできます:"
+  },
+  "noMatchTitle": {
+    "message": "条件に合うタスクはありません"
+  },
+  "noMatchQuery": {
+    "message": "「$1」を含むタスクは見つかりませんでした。"
+  },
+  "noMatchCategory": {
+    "message": "この分類にはまだタスクがありません。"
+  },
+  "subRecorded": {
+    "message": "$1 録画済み"
+  },
+  "subSegments": {
+    "message": "セグメント $1/$2"
+  },
+  "subWithHost": {
+    "message": "$1・$2"
+  },
+  "subMerge": {
+    "message": "音声・映像の結合・$1"
+  },
+  "subSavedPage": {
+    "message": "ページ保存・$1"
+  },
+  "approxSize": {
+    "message": "約 $1"
+  },
+  "fileRecordMissing": {
+    "message": "このファイルの保存記録が見つかりません"
+  },
+  "fileMissing": {
+    "message": "ファイルが見つかりません。移動または削除された可能性があります"
+  },
+  "openFile": {
+    "message": "ファイルを開く"
+  },
+  "showInFolder": {
+    "message": "フォルダーに表示"
+  },
+  "stopRecording": {
+    "message": "録画を停止して保存"
+  },
+  "copyDownloadLink": {
+    "message": "ダウンロードリンクをコピー"
+  },
+  "openSourcePage": {
+    "message": "参照元ページを開く"
+  },
+  "redownload": {
+    "message": "再ダウンロード"
+  },
+  "deleteN_one": {
+    "message": "$1 件のタスクを削除"
+  },
+  "deleteN_other": {
+    "message": "$1 件のタスクを削除"
+  },
+  "taskDetails": {
+    "message": "タスクの詳細"
+  },
+  "kvUrl": {
+    "message": "ダウンロード URL"
+  },
+  "kvSourcePage": {
+    "message": "参照元ページ"
+  },
+  "kvSavedTo": {
+    "message": "保存先"
+  },
+  "kvResumable": {
+    "message": "レジューム"
+  },
+  "resumableYes": {
+    "message": "対応（一時停止後に再開できます）"
+  },
+  "resumableNo": {
+    "message": "非対応（一時停止すると最初からダウンロードし直します）"
+  },
+  "kvQuality": {
+    "message": "画質"
+  },
+  "kvEncryption": {
+    "message": "暗号化"
+  },
+  "aesDecrypted": {
+    "message": "AES-128（自動で復号済み）"
+  },
+  "kvOutput": {
+    "message": "出力形式"
+  },
+  "outputMp4": {
+    "message": "MP4（無劣化で再パッケージ）"
+  },
+  "kvParts": {
+    "message": "構成"
+  },
+  "partAudio": {
+    "message": "音声 $1"
+  },
+  "partVideo": {
+    "message": "映像 $1"
+  },
+  "kvNote": {
+    "message": "メモ"
+  },
+  "kvError": {
+    "message": "エラー"
+  },
+  "kvAdded": {
+    "message": "追加日時"
+  },
+  "kvCompleted": {
+    "message": "完了日時"
+  },
+  "statDownloaded": {
+    "message": "ダウンロード済み"
+  },
+  "statConnections": {
+    "message": "接続"
+  },
+  "statRecorded": {
+    "message": "録画済み"
+  },
+  "statSegments": {
+    "message": "セグメント"
+  },
+  "threadsLabel_one": {
+    "message": "$1 本の接続でダウンロード中（各線はファイル全体を表し、オレンジはその接続が完了した部分です）"
+  },
+  "threadsLabel_other": {
+    "message": "$1 本の接続でダウンロード中（各線はファイル全体を表し、オレンジはその接続が完了した部分です）"
+  },
+  "dlgNewTitle": {
+    "message": "新しいダウンロード"
+  },
+  "newUrlsPlaceholder": {
+    "message": "リンクを 1 行に 1 つずつ貼り付けます。通常のファイルと .m3u8 動画ストリームに対応しています"
+  },
+  "fieldFilenameOptional": {
+    "message": "ファイル名（任意）"
+  },
+  "filenamePlaceholder": {
+    "message": "空欄の場合はサーバーが提供する名前を使用"
+  },
+  "fieldConnections": {
+    "message": "接続数"
+  },
+  "optDefault": {
+    "message": "既定"
+  },
+  "fieldSubfolderOptional": {
+    "message": "サブフォルダーに保存（任意）"
+  },
+  "subfolderPlaceholder": {
+    "message": "例: 資料/講座（ブラウザーのダウンロードフォルダー内）"
+  },
+  "refererSettings": {
+    "message": "リファラーの設定"
+  },
+  "refererLabel": {
+    "message": "Referer（リンク元ページの URL）"
+  },
+  "noHttpLinks": {
+    "message": "http:// または https:// で始まるリンクが見つかりません"
+  },
+  "deleteFilesToo": {
+    "message": "ダウンロード済みのファイルもパソコンから削除する"
+  },
+  "deleteOneTitle": {
+    "message": "このタスクを削除しますか？"
+  },
+  "deleteNTitle_one": {
+    "message": "$1 件のタスクを削除しますか？"
+  },
+  "deleteNTitle_other": {
+    "message": "$1 件のタスクを削除しますか？"
+  },
+  "deleteOneText": {
+    "message": "「$1」を一覧から削除します。"
+  },
+  "deleteTempToo": {
+    "message": "ダウンロード済みの一時データも消去されます。"
+  },
+  "deleteManyText": {
+    "message": "これらのタスクを一覧から削除します。"
+  },
+  "deleteManyTemp_one": {
+    "message": "未完了の $1 件のタスクの一時データも消去されます。"
+  },
+  "deleteManyTemp_other": {
+    "message": "未完了の $1 件のタスクの一時データも消去されます。"
+  },
+  "statusActive_one": {
+    "message": "$1 件をダウンロード中・合計 $2"
+  },
+  "statusActive_other": {
+    "message": "$1 件をダウンロード中・合計 $2"
+  },
+  "statusIdle": {
+    "message": "ダウンロード中のタスクはありません"
+  },
+  "statusLimit": {
+    "message": "速度制限 $1"
+  },
+  "statusTakeoverOn": {
+    "message": "ブラウザーのダウンロードを引き継ぎ中"
+  },
+  "statusTakeoverOff": {
+    "message": "ブラウザーのダウンロードは引き継いでいません"
+  },
+  "tempDataTitle": {
+    "message": "ダウンロード中の一時データです。完了すると自動で削除されます"
+  },
+  "tempData": {
+    "message": "一時データ $1"
+  },
+  "gotIt": {
+    "message": "OK"
+  },
+  "openSettings": {
+    "message": "設定を開く"
+  },
+  "welcomeTitle": {
+    "message": "Shuttle DM の準備ができました"
+  },
+  "welcome1": {
+    "message": "動画を再生すると、ツールバーのアイコンに検出数が表示されます。動画にマウスを重ねて「この動画をダウンロード」をクリックしてください。"
+  },
+  "welcome2": {
+    "message": "リンクを右クリックして「Shuttle DM でリンク先をダウンロード」を選ぶか、ここにリンクを貼り付けると、マルチ接続でダウンロードできます。"
+  },
+  "welcome3": {
+    "message": "ブラウザー自身のダウンロード（圧縮ファイル、インストーラー、動画など）は自動で Shuttle DM が引き継ぎます。設定でオフにできます。"
+  },
+  "engineUnavailable": {
+    "message": "ダウンロードエンジンに接続できません: $1"
+  },
+  "optionsPageTitle": {
+    "message": "設定 - Shuttle DM"
+  },
+  "saved": {
+    "message": "保存しました"
+  },
+  "secDownloads": {
+    "message": "ダウンロード"
+  },
+  "optThreads": {
+    "message": "1 タスクあたりの接続数"
+  },
+  "optThreadsHelp": {
+    "message": "ファイルを複数の部分に分けて同時にダウンロードします。ブラウザーは 1 つの HTTP/1.1 サーバーに最大 6 本まで接続します（HTTP/2 サーバーにはこの制限はありません）。"
+  },
+  "optMaxConcurrent": {
+    "message": "同時にダウンロードするタスク数"
+  },
+  "optMaxConcurrentHelp": {
+    "message": "上限を超えたタスクは待機し、前のタスクが終わると自動で開始します。"
+  },
+  "optSpeedLimit": {
+    "message": "全体の速度制限"
+  },
+  "optSpeedLimitHelp": {
+    "message": "すべてのタスクの合計の最大速度です。0 は無制限です。"
+  },
+  "optRetries": {
+    "message": "接続失敗時の再試行回数"
+  },
+  "optRetriesHelp": {
+    "message": "切断された接続は自動で再接続し、途切れた位置から続けます。"
+  },
+  "optSubfolder": {
+    "message": "サブフォルダーに保存"
+  },
+  "optSubfolderHelp": {
+    "message": "ブラウザーのダウンロードフォルダー内に作成します。空欄の場合はダウンロードフォルダーに直接保存します。"
+  },
+  "optSubfolderPlaceholder": {
+    "message": "例: Shuttle DM"
+  },
+  "optCategorize": {
+    "message": "ファイルの種類ごとにフォルダーを分ける"
+  },
+  "optCategorizeHelp": {
+    "message": "動画・音楽・ドキュメント・圧縮ファイル・プログラム・画像・ウェブページ・その他をそれぞれ別のフォルダーに保存します。"
+  },
+  "optNotify": {
+    "message": "ダウンロードの完了・失敗時に通知する"
+  },
+  "secVideo": {
+    "message": "動画のダウンロード"
+  },
+  "optOverlay": {
+    "message": "ウェブ動画に「この動画をダウンロード」ボタンを表示"
+  },
+  "optOverlayHelp": {
+    "message": "動画にマウスを重ねると右上にボタンが表示され、クリックすると画質を選んでダウンロードできます。"
+  },
+  "optSniffMin": {
+    "message": "このサイズ未満の音声・動画を無視"
+  },
+  "optSniffMinHelp": {
+    "message": "通知音やプレビュー用の短い動画などの小さなファイルを除外します。"
+  },
+  "optHlsFormat": {
+    "message": "M3U8 動画ストリームの保存形式"
+  },
+  "optHlsFormatHelp": {
+    "message": "MP4 はセグメントを無劣化で再パッケージしたもので、スマートフォンやパソコンでそのまま再生できます。HEVC など変換できないコーデックは自動で TS として保存します。"
+  },
+  "optHlsConcurrency": {
+    "message": "同時にダウンロードするセグメント数"
+  },
+  "secTakeover": {
+    "message": "ブラウザーのダウンロードの引き継ぎ"
+  },
+  "optTakeover": {
+    "message": "ブラウザーのダウンロードを Shuttle DM に任せる"
+  },
+  "optTakeoverHelp": {
+    "message": "以下の条件に合うダウンロードは Shuttle DM がマルチ接続でダウンロードします。リンクを再取得できない場合（フォームの送信が必要な場合など）は、ブラウザーが通常どおりダウンロードします。"
+  },
+  "optTakeoverExts": {
+    "message": "引き継ぐファイルの種類"
+  },
+  "optTakeoverExtsHelp": {
+    "message": "拡張子をスペースで区切って入力します。"
+  },
+  "resetExts": {
+    "message": "既定のリストに戻す"
+  },
+  "optTakeoverMin": {
+    "message": "このサイズより大きいファイルだけ引き継ぐ"
+  },
+  "optTakeoverMinHelp": {
+    "message": "小さなファイルはブラウザーで直接ダウンロードしたほうが速く終わります。"
+  },
+  "optTakeoverExclude": {
+    "message": "引き継がないサイト"
+  },
+  "optTakeoverExcludeHelp": {
+    "message": "ドメインをスペースまたは改行で区切って入力します（例: files.example.com）。"
+  },
+  "optTakeoverExcludePlaceholder": {
+    "message": "空欄の場合はすべてのサイトが対象"
+  },
+  "secStorage": {
+    "message": "ストレージとショートカット"
+  },
+  "optTempData": {
+    "message": "一時データ"
+  },
+  "optTempDataHelp": {
+    "message": "ダウンロード中のデータはブラウザーが拡張機能に割り当てた領域に一時保存され、完了するとダウンロードフォルダーへ移されて自動で削除されます。"
+  },
+  "shortcutIs": {
+    "message": "ショートカット: $1"
+  },
+  "shortcutNone": {
+    "message": "ショートカットは未設定です"
+  },
+  "changeShortcut": {
+    "message": "ショートカットを変更"
+  },
+  "secAbout": {
+    "message": "このアプリについて"
+  },
+  "aboutVersion": {
+    "message": "Shuttle DM $1。"
+  },
+  "aboutLocal": {
+    "message": "ダウンロードも動画の結合もすべてこのブラウザー内で行われ、第三者のサーバーは経由しません。"
+  },
+  "aboutOss": {
+    "message": "使用しているオープンソース: mux.js（Apache-2.0、TS の再パッケージ）、Barlow Semi Condensed フォント（SIL OFL 1.1）。"
+  },
+  "aboutLegal": {
+    "message": "保存する権利のあるコンテンツだけをダウンロードしてください。DRM（Widevine、FairPlay など）で保護された動画はダウンロードできず、その対象にもなりません。"
+  },
+  "aboutSource": {
+    "message": "ソースコード: $1"
+  },
+  "grabPageTitle": {
+    "message": "一括ダウンロード - Shuttle DM"
+  },
+  "grabPageTitleWith": {
+    "message": "一括ダウンロード: $1 - Shuttle DM"
+  },
+  "toolGrabFull": {
+    "message": "一括ダウンロード"
+  },
+  "filterByType": {
+    "message": "種類で絞り込み"
+  },
+  "tabAll": {
+    "message": "すべて"
+  },
+  "grabSearchPlaceholder": {
+    "message": "URL や文字で絞り込み（* はワイルドカード）"
+  },
+  "grabSearchLabel": {
+    "message": "リンクを絞り込む"
+  },
+  "selectAllInList": {
+    "message": "一覧をすべて選択"
+  },
+  "colLinkText": {
+    "message": "リンクテキスト"
+  },
+  "colUrl": {
+    "message": "URL"
+  },
+  "saveTo": {
+    "message": "保存先"
+  },
+  "grabFolderPlaceholder": {
+    "message": "ダウンロードフォルダー内のサブフォルダー（任意）"
+  },
+  "downloadWith": {
+    "message": "ダウンロード方法"
+  },
+  "modeEngine": {
+    "message": "Shuttle DM（マルチ接続）"
+  },
+  "modeBrowser": {
+    "message": "ブラウザーに任せる"
+  },
+  "selectItem": {
+    "message": "$1 を選択"
+  },
+  "grabNoMatch": {
+    "message": "条件に合うリンクはありません。"
+  },
+  "grabNoLinks": {
+    "message": "このページにリンクは見つかりませんでした。"
+  },
+  "selectedCount_one": {
+    "message": "$1 件を選択中"
+  },
+  "selectedCount_other": {
+    "message": "$1 件を選択中"
+  },
+  "downloadSelected": {
+    "message": "選択した項目をダウンロード"
+  },
+  "sentToBrowser_one": {
+    "message": "$1 件のファイルをブラウザーに渡しました"
+  },
+  "sentToBrowser_other": {
+    "message": "$1 件のファイルをブラウザーに渡しました"
+  },
+  "grabExpired": {
+    "message": "リンクの一覧は期限切れです。ページに戻って「一括ダウンロード」をもう一度開いてください。"
+  },
+  "grabSelection": {
+    "message": "選択範囲"
+  }
+}
