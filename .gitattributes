@@ -1,0 +1,9 @@
+# Keep LF line endings in the repository and in every checkout, so scripts such as
+# scripts/build-zip.sh still run after the files are edited on Windows.
+* text=auto eol=lf
+
+# Binary files: never convert their bytes
+*.png binary
+*.jpg binary
+*.woff2 binary
+*.zip binary
